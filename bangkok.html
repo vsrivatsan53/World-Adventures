@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8">
+    <title>World Adventures</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="tokyostyle.css">
+      <link rel="stylesheet" href="flatui/dist/css/flat-ui.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script type="text/javascript" src="calcscript/formcalculationsbangkok.js"></script>
+<script type="text/javascript" src="js/fresco/fresco.js"></script>
+<link rel="stylesheet" type="text/css" href="css/fresco/fresco.css"/>
+    
+  </head>
+
+  <body>
+    
+<div class="bangkokintro nav_intro">
+    <div role="navigation" class="navbar navbar-fixed-top" >
+        <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header navstyle">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+    </div>
+    <!-- Collection of nav links and other content for toggling -->
+                        <div class="nav-wrapper">
+    <div id="navbarCollapse" class="collapse navbar-collapse navstyle" data-spy="affix" data-offset-top="20">
+        <ul class="nav navbar-nav">
+             <li><a href="index.html"><img src="logo.png" class="logo"></a></li>
+            <li class="navlink"><a href="#attractions" class="smooth">Attractions</a></li>
+            <li class="navlink"><a href="#hotels" class="smooth">Hotels</a></li>
+            <li class="navlink"><a href="#restaurants" class="smooth">Restaurants</a></li>
+            <li class="navlink"><a href="#packages" class="smooth">Packages</a></li>
+           
+            
+         
+             <li class="navlink"><a href="contact.html">Contact</a></li>
+            <li class="navlink"><a href="itinerary.html">Itinerary</a></li>
+            <li class="dropdown navlink">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Destinations<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          
+                            <li><a href="dubai.html">Dubai</a></li>
+                            <li><a href="tokyo.html">Tokyo</a></li>
+                            <li><a href="london.html">London</a></li>
+                            <li><a href="nyc.html">New York City</a></li>
+                            <li><a href="paris.html">Paris</a></li>
+                            <li><a href="hongkong.html">Hong Kong</a></li>
+                            <li><a href="bangkok.html">Bangkok</a></li>
+                            <li><a href="rio.html">Rio De Janeiro</a></li>
+                        </ul>
+                    </li>
+            
+        </ul>
+    </div>
+            </div>
+</div>
+        </div>
+    <div class="tokyotitlearea">
+      <div class="container">
+        
+        <h1>Bangkok</h1>
+        <p>Scroll down to learn everything about Bangkok</p>
+                  <p><a href="http://time.is/Bangkok" id="time_is_link" rel="nofollow"></a>
+          <span class="timeintro">Time in Bangkok:</span>
+<span id="Bangkok_z40a"></span>
+<script src="http://widget.time.is/t.js"></script>
+<script>
+time_is_widget.init({Bangkok_z40a:{time_format:"12hours:minutesAMPM"}});
+</script></p>
+                  </div>
+   
+            <div class="iweather" >
+            <iframe src="http://www.weatherfor.us/load.php?location=bangkok" scrolling="no" frameborder="0" allowtransparency="true" style="background: transparent; width: 720px; height: 250px; overflow: hidden;"></iframe>
+
+            </div>
+      </div>
+  
+         <a href="#video" class="smooth"><img src="downarrow.png" class="arrow"></a> 
+ 
+    </div> 
+
+      <div class="jumbotron jumbotron-white" id="video">
+          <div class="container attractions video">
+              <h3 class="videotext">Welcome to Bangkok</h3>
+              <div class="row">
+                  <div class="col-md-6">
+                      <p><b>Here's an overview of Bangkok</b></p>
+                      <div class="video-container">
+              <iframe width="560" height="315" src="http://www.youtube.com/embed/21mKbR-4VTA" frameborder="0" allowfullscreen></iframe></div>
+                      </div>
+                  <div class="col-md-6">
+                      <p><b>Here's a map of Bangkok including various hotels and restaurants</b></p>
+                  <iframe
+class="map"
+  height="315"
+            width="560"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBVGC6tXormt3XyRZBS2QSJk58zVr1IBrY&q=hotels+restaurants+attractions+in+Bangkok">
+</iframe>
+                  </div>
+              </div>
+              </div>
+           </div>
+      <div class="jumbotron" id="attractions">
+          <div class="container attractions">
+      <h1 class="titletext">Attractions</h1>
+              <div class="container">
+              <ul class="nav nav-tabs nav-justified contenttab white">
+  <li class="active"><a href="#watarun" data-toggle="tab">Wat Arun</a></li>
+  <li><a href="#floating" data-toggle="tab">Floating Market</a></li>
+  <li><a href="#watpho" data-toggle="tab">Wat Pho</a></li>
+</ul>
+              <div id="content" class="tab-content">
+                  <div class="tab-pane fade active in" id="watarun">
+                      <h3>Wat Arun</h3>
+                      <div class="row">
+                          <div class="col-md-7">
+             <p>The Magnificent Wat Arun or Temple of the Sun was constructed during the first half of the 19th century in the ancient Khmer style, the stupa showcasing ornate floral pattern decked out in glazed porcelain is stunning up close. Apart from its beauty, Wat Arun symbolizes the birth of the Rattanakosin Period and the founding of the new capital after Ayutthaya fell. This is a must see for all visiting the magnificent city.  This attraction is open daily from 8:30 A.M. – 5:30 P.M and costs a mere 30 Bhat for tourists. 
+</p>
+                 
+                              <p>Address: Arun, Bangkok Yai, Bangkok 10600, Thailand</p>
+         </div>
+            <div class="attraction col-md-5">
+                          <img src="bangkokpics/watarun2.jpg" class="thumbnail" style="width: 100%;">
+                          </div>
+      </div>                 
+                      </div>
+                  <div class="tab-pane fade" id="floating">
+                 <h3>Floating Market</h3>
+              <div class="row">
+                      <div class="col-md-7">
+                  <p>The pioneer of all floating markets, Damnoen Saduak continues to offer an authentic experience despite its increasingly touristy atmosphere. Imagine dozens of wooden row boats floating by, each laden to the brim with farm-fresh fruits, vegetables or flowers. Food vendors fill their vessels with cauldrons and charcoal grills, ready to whip up a bowl of ‘boat noodle’ or seafood skewers upon request.</p>
+                        
+                  </div>
+                  <div class="col-md-5">
+                  <img src="bangkokpics/floatingmarket.jpg" class="thumbnail" style="width: 100%;">
+                  </div>
+                      </div>
+                  </div>
+                  <div class="tab-pane fade" id="watpho">
+                  <h3>Wat Pho</h3>
+              <div class="row">
+                      <div class="col-md-7">
+                  <p>One of the oldest and largest temples in Bangkok with numerous beautiful structures such as  the famous Reclining Buddha, which is the largest in Thailand measuring more than 150 feet in length. The beautiful temple is revered by many and is a must see for all visiting this City. The hours are 8:00 am to 6:00 pm and admission is 100 bhat.</p>
+                       
+                          <p>Address: 2 Sanamchai Road, Grand Palace Subdistrict, Pranakorn District, Bangkok 10200</p>
+                  </div>
+                  <div class="col-md-5">
+                  <img src="bangkokpics/watpho.jpg" class="thumbnail" style="width: 100%;">
+                  </div>
+                      </div>
+                  </div>
+                   
+              </div>
+              </div>
+              </div>
+          </div>
+     <div class="jumbotron jumbotron-white" id="hotels">
+          <div class="container attractions">
+      <h1 class="titletext">Hotels</h1>
+              <div class="container">
+              <ul class="nav nav-tabs nav-justified contenttab">
+  <li class="active"><a href="#arun" data-toggle="tab">Arun Residence</a></li>
+  <li><a href="#ascott" data-toggle="tab">Ascott Sathorn</a></li>
+  <li><a href="#baan" data-toggle="tab">Baan Dinso 2</a></li>
+</ul>
+              <div id="content" class="tab-content">
+                  <div class="tab-pane fade active in" id="arun">
+                <h3>Arun Residence</h3>
+                      <p>Arun Residence is a four-star accommodation that lets you enjoy the beautiful riverside of the Chao Phraya, with the magnificent Wat Arun, also referred to as the Temple of Dawn, on the opposite bank. The hotel offers one of the best spots to enjoy the beautiful sunsets with the temple as background, from its great restaurant. The hotel is located on Maharat Road, within a 45-minute transfer via taxi from the main hub of Bangkok city, the Suvarnabhumi International Airport is a 40km transfer away.</p> 
+                      <p>Address: Maha Rat Road, Phra Borom Maha Ratchawang, Phra Nakhon, 
+Bangkok 10200, Thailand</p>
+                      <p>Cost: Starting from THB 2,973 (90.14 US Dollars)</p>
+                      <div class="row">
+                      <div class="col-md-4">
+                          <p>Amenities:</p>
+                          <ul>
+                          <li>Air-conditioning</li>
+                              <li>Balcony / Terrace</li>
+                              <li>Cable / Satellite TV</li>
+                              <li>Coffee / Tea facilities</li>
+                              <li>Hair Dryer</li>
+                              <li>Mini bar / Fridge</li>
+                              <li>Safe Deposit Box</li>
+                              <li>Television</li>
+                              <li>Wi Fi Internet Access</li>
+                              <li>Wooden Floor</li>
+                              <li>Bar/Pub/Lounge</li>
+                              <li>Cable / Satellite TV</li>
+                          </ul>
+                          </div>
+                          <div class="col-md-3">
+                          <p>Amenities (Cont.):</p>
+                          <ul>
+                          <li>Coffee Shop</li>
+                              <li>Laundry</li>
+                              <li>Luggage Storage</li>
+                              <li>Massage</li>
+                              <li>Non-smoking Rooms</li>
+                              <li>Parking</li>
+                              <li>Restaurant</li>
+                              <li>Room with Balcony</li>
+                              <li>River View Rooms</li>
+                              <li>Room Services</li>
+                          </ul>
+                          </div>
+                          <div class="col-md-5">
+                          <a href="bangkokpics/arun1.jpg" class="fresco" data-fresco-group="unique_name"><img src="bangkokpics/arun1.jpg" class="thumbnail" style="width: 100%;"></a>
+                     <a href="bangkokpics/arun2.jpg" class="fresco" data-fresco-group="unique_name"><img src="bangkokpics/arun2.jpg" class="group"></a>
+                     <a href="bangkokpics/arun3.jpg" class="fresco" data-fresco-group="unique_name"><img src="bangkokpics/arun3.jpg" class="group"></a>
+                     <a href="bangkokpics/arun4.png" class="fresco" data-fresco-group="unique_name"><img src="bangkokpics/arun4.png" class="group"></a>
+                              
+                     Click on the picture to view more
+                        </div>
+                      </div>
+                      </div>
+                  <div class="tab-pane fade" id="ascott">
+                 <h3>Ascott Sathorn</h3>
+                      <p>The Ascott Sathorn combines luxurious and spacious private apartments with amazing services and facilities. It provides the convenience of being located in Bangkok's key business and commercial district, Sathorn, and offers extensive services, state of the art fitness and luxurious spa facilities, world-class dining and entertainment outlets on the premises.</p>
+                      <p>The shopping and entertainment districts along Silom and Sukhumvit roads are just minutes away, offering an extensive selection of local and international merchandise and culinary delights. Relax in the perfectly designed interiors knowing that there is 24-hour security and professional staff available to assist you during your stay. Enjoy your business trip, holiday or relocation in Bangkok while indulging in the pleasures of private accommodation with the benefits of personalised services and facilities.</p>
+                      <p>Address: 187 South Sathorn Road, Yannawa Sathorn, 
+Bangkok 10120, Thailand</p>
+                      <p>Cost: Starting from THB 3,485 (106.96 US Dollars)</p>
+                      <div class="row">
+                      <div class="col-md-4">
+                          <p>Amenities:</p>
+                          <ul>
+                          <li>Shuttle bus service to civic &amp; financial districts</li>
+                              <li>24-hour reception</li>
+                              <li>Babysitting service (upon request)</li>
+                              <li>Bar</li>
+                              <li>Beauty salon</li>
+                              <li>Business Centre services</li>
+                              <li>Daily continental breakfast</li>
+                              <li>Daily maid service</li>
+                              <li>Laundry &amp; dry cleaning services</li>
+                              <li>Limousine service</li>
+                              <li>Meal delivery service</li>
+                              <li>Restaurant</li>
+                              <li>Conference room</li>
+                          </ul>
+                          </div>
+                          <div class="col-md-3">
+                          <p>Amenities (Cont.):</p>
+                          <ul>
+                          <li>Children's playroom</li>
+                              <li>Fitness centre</li>
+                              <li>Fully-equipped gymnasium</li>
+                              <li>Function room</li>
+                              <li>Residents' lounge</li>
+                              <li>Residents' programmes</li>
+                              <li>Sauna room</li>
+                              <li>Sheltered carpark</li>
+                              <li>Spa</li>
+                              <li>Steam room</li>
+                              <li>Swimming pool</li>
+                              <li>24-hour security &amp; closed-circuit TV surveillance</li>
+                          </ul>
+                          </div>
+                          <div class="col-md-5">
+                          <a href="bangkokpics/ascott1.jpg" class="fresco" data-fresco-group="unique_name2"><img src="bangkokpics/ascott1.jpg" class="thumbnail" style="width: 100%;"></a>
+                     <a href="bangkokpics/ascott2.jpg" class="fresco" data-fresco-group="unique_name2"><img src="bangkokpics/ascott2.jpg" class="group"></a>
+                     <a href="bangkokpics/ascott3.jpg" class="fresco" data-fresco-group="unique_name2"><img src="bangkokpics/ascott3.jpg" class="group"></a>
+                     <a href="bangkokpics/ascott4.jpg" class="fresco" data-fresco-group="unique_name2"><img src="bangkokpics/ascott4.jpg" class="group"></a>
+                              <a href="bangkokpics/ascott5.jpg" class="fresco" data-fresco-group="unique_name2"><img src="bangkokpics/ascott5.jpg" class="group"></a>
+                     Click on the picture to view more
+                        </div>
+                      </div>
+                      </div>
+                  <div class="tab-pane fade" id="baan">
+                  <h3>Baan Dinso 2</h3>
+                      <p>Baan Dinso 2 is located at Ratchadamnoen square next to Dinso road, leading to the Giant Swing and Bangkok City Hall. Many infrastructures in this area were built since 1937 and still preserve its original architecture style to current day. Ratchadamnoen is home to several Bangkok’s tourist destination including Rattanakosin Exhibition Hall, Wat Ratchanadda, Wat Thepthidaram, Mahakan Fort, the Golden Mountain and Baan Bat neighborhood. Glance through the old neighborhood and lay eyes upon Ratchadamnoen road, a symbolic path to Siamese Democracy.</p> 
+                      <p>Generations of Thai descendants have ventured this road to establish just governance for the public opinion. The Democracy Monument was erected on this foundation of governance and sacrifices made by pioneering individuals. Although time has moved forward, the Democracy Monument stands tall to inscribe memories of the past. We invite you to be our guest to witness Bangkok’s most memorable landscape at an unbelievable location next to the Democracy Monument and Ratchadamnoen road.</p>
+                      <p>Address: 78/3 Ratchadamnoen Klang Rd. Pranakorn Bovornnivate
+Bangkok 10200, Thailand</p>
+                      <p>Cost: Starting from TBH 680 (20.87 US Dollars)</p>
+                      <div class="row">
+                      <div class="col-md-7">
+                          <p>Amenities:</p>
+                          <ul>
+                          <li>24 hours Room Services</li>
+                          <li>Coffee Shop</li>
+                              <li>Games Room</li>
+                              <li>Laundry</li>
+                              <li>Restaurant</li>
+                              <li>Room Services</li>
+                              <li>Shopping Area</li>
+                              <li>Tour Desk</li>
+                              <li>WiFi Internet</li>
+                          </ul>
+                          </div>
+                          
+                          <div class="col-md-5">
+                          <a href="bangkokpics/baan1.jpg" class="fresco" data-fresco-group="unique_name3"><img src="bangkokpics/baan1.jpg" class="thumbnail" style="width: 100%;"></a>
+                     <a href="bangkokpics/baan2.jpg" class="fresco" data-fresco-group="unique_name3"><img src="bangkokpics/baan2.jpg" class="group"></a>
+                     <a href="bangkokpics/baan3.jpg" class="fresco" data-fresco-group="unique_name3"><img src="bangkokpics/baan3.jpg" class="group"></a>
+                     <a href="bangkokpics/baan4.jpg" class="fresco" data-fresco-group="unique_name3"><img src="bangkokpics/baan4.jpg" class="group"></a>
+                              <a href="bangkokpics/baan5.jpg" class="fresco" data-fresco-group="unique_name3"><img src="bangkokpics/baan5.jpg" class="group"></a>
+                     Click on the picture to view more
+                        </div>
+                      </div>
+                      </div>
+                   
+              </div>
+              </div>
+              </div>
+          </div>
+      <div class="jumbotron" id="restaurants">
+          <div class="container attractions">
+      <h1 class="titletext">Restaurants</h1>
+              <div class="container">
+              <ul class="nav nav-tabs nav-justified contenttab white">
+  <li class="active"><a href="#lenzi" data-toggle="tab">Lenzi Tuscan Kitchen</a></li>
+  <li><a href="#livingroom" data-toggle="tab">The Living Room</a></li>
+  <li><a href="#chefbar" data-toggle="tab">Chef Bar</a></li>
+</ul>
+              <div id="content" class="tab-content">
+                  <div class="tab-pane fade active in" id="lenzi">
+                      <h3>Lenzi Tuscan Kitchen</h3>
+             <div class="row">
+                      <div class="col-md-7">
+                          <p>This 5 Star rated restaurant is widely known in Bangkok for its amazing Italian cuisine. Considered to be the best restaurant in Bangkok, reservations are required to enter dining.</p>
+                          <p>Address: 69/2 Ruam Rudee Soi 2, Wireless Road. | 
+Lenzi Asia Co., Ltd., Lumpini, Pathumwan
+Bangkok 10330, Thailand</p>
+                          <p>Phone Number: +(66)(0) 20010116</p>
+                 </div>
+                 <div class="col-md-5">
+                     <img src="bangkokpics/lenzi.jpg" class="thumbnail" style="width: 100%;">
+                 </div>
+                      </div>
+                       
+                      </div>
+                  <div class="tab-pane fade" id="livingroom">
+                  <h3>The Living Room</h3>
+             <div class="row">
+                      <div class="col-md-7">
+                          <p>This 4.5 Star international cuisine restaurant is widely  know in  Bangkok. It is highly revered for its very good food, in a very limited price range. It has even received  a certificate of Excellence for 2014.</p>
+                          <p>Address: 57 Aldensley Road, London W6 0DL, England </p>
+                          <p>Phone Number: +66 2 649 8353</p>
+                          <p>Cost: $15 - $20</p>
+                          <p>Hours: Sun - Sat 9:00 am - 12:00 am</p>
+                 </div>
+                 <div class="col-md-5">
+                     <img src="bangkokpics/livingroom.jpg" class="thumbnail" style="width: 100%;">
+                 </div>
+                      </div>
+                       
+                      </div>
+                  <div class="tab-pane fade" id="chefbar">
+                   <h3>Chef Bar</h3>
+             <div class="row">
+                      <div class="col-md-7">
+                          <p>This Australian restaurant offers a variety of unique and delicious meals. Receiving the Certificate of Excellence in 2014, this is one of the highest rated restaurants in  Bangkok. A great place for the whole family.</p>
+                          <p>Address: Sukhumvit 21 Soi 2,
+Bangkok, Thailand</p>
+                          <p>Cost: $4 - $22</p>
+                          <p><u>Hours:</u></p>
+                          <p>Mon - Sat 5:00 pm - 9:00 pm</p>
+                          <p>Sunday 12:00 pm - 3:00 pm</p>
+                 </div>
+                 <div class="col-md-5">
+                     <img src="bangkokpics/chefbar.jpg" class="thumbnail" style="width: 100%;">
+                 </div>
+                      </div>
+                       
+                      </div>
+                  
+              </div>
+              </div>
+              </div>
+          </div>
+       
+      <div class="jumbotron jumbotron-white" id="packages">
+      <div class="container attractions">
+          <h1 class="titletext">Packages</h1>
+          <div class="row">
+          <div class="col-md-4 drop">
+              
+             <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> <img class="ribbbon" src="bronzeribbon.png">
+              
+  
+</a><br><p>Bronze Package (Starting from $304)</p>
+              <div class="collapse" id="collapseExample">
+  <div class="well">
+    <p>Enjoy seven nights in our bronze package for Bangkok</p>
+      <div class="nontextcentered"><p>What's Included:</p>
+      <ul>
+      <li>Baan Dinso 2 weeklong stay starting from $150 </li>
+          <li>Economy Car rental starting from $150</li>
+          <li>Up to 4 person admission to Was Pho: $3</li>
+          <li>Up to 4 person admission to Wat Arun: $1</li>
+      </ul>
+          </div>
+  </div>
+</div>
+              
+              </div>
+              <div class="col-md-4 drop">
+              <a data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample"> <img class="ribbbon" src="silverribbon.png">
+              
+  
+</a><br><p>Silver Package (Starting from $816)</p>
+              <div class="collapse" id="collapseExample2">
+  <div class="well">
+     <p>Experience the grandness of Bangkok for seven nights in our silver package</p>
+      <div class="nontextcentered"><p>What's Included:</p>
+      <ul>
+      <li>Seven nights stay at the Arun Residence starting from $630</li>
+          <li>Mid Value Car rental starting from $182</li>
+          <li>Up to 4 person admission to Was Pho: $3</li>
+          <li>Up to 4 person admission to Wat Arun: $1</li>
+      </ul>
+          </div>
+  </div>
+</div>
+              </div>
+              <div class="col-md-4 drop">
+              <a data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample"> <img class="ribbbon" src="goldribbon.png">
+              
+  
+</a><br><p>Gold Package (Starting from $1003)</p>
+              <div class="collapse" id="collapseExample3">
+  <div class="well">
+    <p>The most luxurious way to visit Bangkok for seven nights is all included in our gold package</p>
+      <div class="nontextcentered"><p>What's Included:</p>
+      <ul>
+      <li>Seven nights at the Ascott Sathorn starting from $749</li>
+          <li>Luxury/ Sport Car rental starting from $250</li>
+          <li>Up to 4 person admission to Was Pho: $3</li>
+          <li>Up to 4 person admission to Wat Arun: $1</li>
+      </ul>
+          </div>
+  </div>
+</div> 
+              </div>
+              
+                  
+          </div>
+          
+          </div>
+      </div>
+      <div class="jumbotron" id="expenses">
+          <div class="container attractions">
+              <h3 class="titletext">Estimate the Price of Your Stay</h3>
+              <div class="row">
+                  <div class="col-md-4">
+              <div id="wrap">
+        <form action="" id="cakeform" onsubmit="return false;">
+        <div>
+            <div class="cont_order">
+               <fieldset>
+              
+    
+                <select class="form-control" id="filling" name='filling' onchange="calculateTotal()">
+                <option value="None">Number of Nights Staying</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="3weeks">3 weeks</option>
+                    <option value="4weeks">4 weeks</option>
+               
+               </select>
+                <br/>
+               <select class="form-control" id="filling2" name='filling2' onchange="calculateTotal()">
+                <option value="None">Choose a Hotel</option>
+                <option value="hotel1">Arun Residence (Starting from $90.14)</option>
+                <option value="hotel2">Ascott Sathorn Bangkok, Thailand (Starting from $106.96)</option>
+                <option value="hotel3">Baan Dinso 2 (Starting from $20.87)</option>
+               
+               </select><br />
+                <div id="totalPrice"></div>
+                
+                </fieldset>
+            </div>
+            
+        	
+            
+        </div>  
+       </form>
+	</div><!--End of wrap-->
+                       
+                      </div>
+                  <div class="col-md-4">
+                  <iframe id="QuickTripWidget" allowTransparency="true" src="http://www.quicktrip.com/quicktrip-widget.html?Affiliate=48bdd172-f175-4aca-ab9f-079cbbd8f61a&Mode=flight&Culture=en-CA" width="300" height="250" scrolling="no" frameBorder="0"></iframe>
+                  </div>
+                  <div class="col-md-3">
+                  <!-- EXCHANGERATES.ORG.UK US Dollar CURRENCY CONVERTER START -->
+<div style="width:178px;;margin:0;padding:0;border:1px solid #2D6AB4;background:#f0f0f0;">
+<div style="width:178px;text-align:center;padding:2px 0px;background:#2D6AB4;font-family:arial;font-size:11px;color:#ffffff;font-weight:bold;vertical-align:middle;">
+<img src="http://www.exchangerates.org.uk/images/flags/us.gif" style="padding-right:5px;">
+<a style="color:#ffffff;text-decoration:none;text-transform:uppercase;" href="http://www.exchangerates.org.uk/US-Dollar-USD-currency-table.html" target="_new" title="US Dollar Converter">US Dollar Converter</a></div><div style="padding:10px;">
+<script type="text/javascript">	
+var dcf = 'USD';
+var dct = 'EUR';
+var mc = '2D6AB4';
+var mbg = 'f0f0f0';
+var tc = 'ffffff';
+var f = 'arial';
+var fc = '000000';
+var tz = '0';
+
+</script><script type="text/javascript" src="http://www.currency.me.uk/remote/ER-CCCS2-1.php"></script></div></div>
+<!-- EXCHANGERATES.ORG.UK US Dollar CURRENCY CONVERTER END -->
+                  </div>
+              </div>
+          </div>
+          </div>
+     
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+      
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc2/js/bootstrap.min.js"></script>
+      <script type="text/javascript">
+// javascript will go here
+$(function(){
+
+    // Specify the ZIP/location code and units (f or c)
+    var loc = 'THXX0002'; // or e.g. SPXX0050
+    var u = 'f';
+
+    var query = "SELECT item.condition FROM weather.forecast WHERE location='" + loc + "' AND u='" + u + "'";
+    var cacheBuster = Math.floor((new Date().getTime()) / 1200 / 1000);
+    var url = 'http://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent(query) + '&format=json&_nocache=' + cacheBuster;
+
+    window['wxCallback'] = function(data) {
+        var info = data.query.results.channel.item.condition;
+        $('#wxIcon').css({
+            backgroundPosition: '-' + (61 * info.code) + 'px 0'
+        }).attr({
+            title: info.text
+        });
+        $('#wxIcon2').append('<img src="http://l.yimg.com/a/i/us/we/52/' + info.code + '.gif" width="34" height="34" title="' + info.text + '" />');
+        $('#wxTemp').html(info.temp + '&deg;' + (u.toUpperCase()));
+    };
+
+    $.ajax({
+        url: url,
+        dataType: 'jsonp',
+        cache: true,
+        jsonpCallback: 'wxCallback'
+    });
+    
+});
+</script>
+       <script>
+      $(function() {
+  $('a[href*=#][class*="smooth"]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+      </script>
+      </body>
+   <footer>
+    <div class="jumbotron jumbotron-footer">
+        <div class="social">
+            <h4>Connect to us with Social Media</h4>
+       <a target="_blank" href="https://www.facebook.com/wadvs"><img src="facebook42.png"></a>
+            <a target="_blank" href="https://twitter.com/wadvs27"><img src="twitter42.png"></a>
+            <a target="_blank" href="https://plus.google.com/116451774734759841468/about"><img src="google-plus42.png"></a>
+           <a target="_blank" href="https://www.pinterest.com/adventures0530/"><img src="pinterest42.png"></a>
+            
+             <p>&copy; 2014 | World Adventures | Vignesh Srivatsan, Raajesh Arunachalam, Bhavish Bhattar, Santan Katragadda|  </p>
+            
+            </div>
+   
+    
+    </div>
+    
+    </footer>
+    </html>

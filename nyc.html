@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8">
+    <title>World Adventures</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="tokyostyle.css">
+      <link rel="stylesheet" href="flatui/dist/css/flat-ui.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script type="text/javascript" src="calcscript/formcalculationsnyc.js"></script>
+<script type="text/javascript" src="js/fresco/fresco.js"></script>
+<link rel="stylesheet" type="text/css" href="css/fresco/fresco.css"/>
+    
+  </head>
+
+  <body>
+    
+<div class="nycintro nav_intro">
+    <div role="navigation" class="navbar navbar-fixed-top" >
+        <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header navstyle">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+    </div>
+    <!-- Collection of nav links and other content for toggling -->
+            <div class="nav-wrapper">
+    <div id="navbarCollapse" class="collapse navbar-collapse navstyle" data-spy="affix" data-offset-top="20">
+        <ul class="nav navbar-nav">
+            <li><a href="index.html"><img src="logo.png" class="logo"></a></li>
+            <li class="navlink"><a href="#attractions" class="smooth">Attractions</a></li>
+            <li class="navlink"><a href="#hotels" class="smooth">Hotels</a></li>
+            <li class="navlink"><a href="#restaurants" class="smooth">Restaurants</a></li>
+            <li class="navlink"><a href="#packages" class="smooth">Packages</a></li>
+           
+            
+         
+             <li class="navlink"><a href="contact.html">Contact</a></li>
+            <li class="navlink"><a href="itinerary.html">Itinerary</a></li>
+            <li class="dropdown navlink">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Destinations<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          
+                            <li><a href="dubai.html">Dubai</a></li>
+                            <li><a href="tokyo.html">Tokyo</a></li>
+                            <li><a href="london.html">London</a></li>
+                            <li><a href="nyc.html">New York City</a></li>
+                            <li><a href="paris.html">Paris</a></li>
+                            <li><a href="hongkong.html">Hong Kong</a></li>
+                            <li><a href="bangkok.html">Bangkok</a></li>
+                            <li><a href="rio.html">Rio De Janeiro</a></li>
+                        </ul>
+                    </li>
+            
+        </ul>
+    </div>
+            </div>
+</div>
+        </div>
+    <div class="tokyotitlearea">
+      <div class="container">
+          
+        <h1>New York City</h1>
+        <p>Scroll down to learn everything about the Big Apple</p>
+      <p><a href="http://time.is/New_York" id="time_is_link" rel="nofollow"></a>
+          <span class="timeintro">Time in New York City:</span>
+<span id="New_York_z161"></span>
+<script src="http://widget.time.is/t.js"></script>
+<script>
+time_is_widget.init({New_York_z161:{time_format:"12hours:minutesAMPM"}});
+</script></p>
+                  </div>
+      
+            <div class="iweather" >
+            <iframe src="http://www.weatherfor.us/load.php?location=new+york+city" scrolling="no" frameborder="0" allowtransparency="true" style="background: transparent; width: 720px; height: 250px; overflow: hidden;"></iframe>
+
+
+            </div>
+   </div>
+        
+          <a href="#video" class="smooth"><img src="downarrow.png" class="arrow"></a>
+        </div>
+          
+ 
+    
+      
+
+      <div class="jumbotron jumbotron-white" id="video">
+          <div class="container attractions video">
+              <h3 class="videotext">Welcome to New York City</h3>
+              <div class="row">
+                  <div class="col-md-6">
+                      <p><b>Here's an overview of NYC</b></p>
+                      <div class="video-container">
+              <iframe width="560" height="315" src="http://www.youtube.com/embed/MtCMtC50gwY" frameborder="0" allowfullscreen></iframe></div>
+                      </div>
+                  <div class="col-md-6">
+                      <p><p><b>Here's a map of NYC including various hotels and restaurants</b></p>
+                  <iframe
+class="map"
+        width="560"
+  height="315"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBVGC6tXormt3XyRZBS2QSJk58zVr1IBrY&q=hotels+restaurants+attractions+in+New+York+City">
+</iframe>
+                  </div>
+              </div>
+              </div>
+           </div>
+      <div class="jumbotron" id="attractions">
+          <div class="container attractions">
+      <h1 class="titletext">Attractions</h1>
+              <div class="container">
+              <ul class="nav nav-tabs nav-justified contenttab white">
+  <li class="active"><a href="#madison" data-toggle="tab">Madison Square Garden</a></li>
+  <li><a href="#empire" data-toggle="tab">Empire State Building</a></li>
+  <li><a href="#centralpark" data-toggle="tab">Central Park</a></li>
+</ul>
+              <div id="content" class="tab-content">
+                  <div class="tab-pane fade active in" id="madison">
+                      <h3>Madison Square Garden</h3>
+                      <div class="row">
+                          <div class="col-md-7">
+             <p>Famous for its many concerts and sporting events (New York Knicks and New York Rangers), the Madison Square Garden is a key tourist attraction in New York. If your visiting through the months of November to April, check out the New York Knicks led by Carmelo Anthony. If you’re visiting from October to April, you can also check out the New York Rangers. At all times, there are many concerts and other events as well.
+</p>
+                              
+                              <p>Address: 4 Pennsylvania Plaza, New York, NY 10001</p>
+         </div>
+            <div class="attraction col-md-5">
+                          <img src="nycpics/madison.jpg" class="thumbnail" style="width: 100%;">
+                          </div>
+      </div>                 
+                      </div>
+                  <div class="tab-pane fade" id="empire">
+                 <h3>Empire State Building</h3>
+              <div class="row">
+                      <div class="col-md-7">
+                  <p>The Empire State Building is famous for its breathtaking views of New York City. The Empire State Building has an observation deck and many telescopes for great vision.</p>
+                          <p>Price: $30</p>
+                          <p>Address: 350 5th Avenue, New York, NY 10118</p>
+                  </div>
+                  <div class="col-md-5">
+                  <img src="nycpics/empire.jpg" class="thumbnail" style="width: 100%;">
+                  </div>
+                      </div>
+                  </div>
+                  <div class="tab-pane fade" id="centralpark">
+                  <h3>Central Park</h3>
+              <div class="row">
+                      <div class="col-md-7">
+                  <p>Designed by Frederick Law Olmstead in 1858, Central Park has been one of New York’s most monumental attractions for years. In Central Park, you can experience the breathtaking 55-acre Great Lawn, enjoy the ice-skating rinks, baseball fields, tennis courts, jogging, cycling, fishing, and in-line skating. They also have the famous Central Park Zoo for family fun.</p>
+                          
+                          <p>Address: Center of Manhattan, New York City</p>
+                  </div>
+                  <div class="col-md-5">
+                  <img src="nycpics/centralpark.jpg" class="thumbnail" style="width: 100%;">
+                  </div>
+                      </div>
+                  </div>
+                   
+              </div>
+              </div>
+              </div>
+          </div>
+     <div class="jumbotron jumbotron-white" id="hotels">
+          <div class="container attractions">
+      <h1 class="titletext">Hotels</h1>
+              <div class="container">
+              <ul class="nav nav-tabs nav-justified contenttab">
+  <li class="active"><a href="#trump" data-toggle="tab">Trump Tower</a></li>
+  <li><a href="#casa" data-toggle="tab">Casablanca Hotel Times Square</a></li>
+  <li><a href="#nychilton" data-toggle="tab">Hilton Garden Inn Times Square</a></li>
+</ul>
+              <div id="content" class="tab-content">
+                  <div class="tab-pane fade active in" id="trump">
+                <h3>Trump Tower</h3>
+                      <p>Famous for its creator, the outspoken Donald Trump, Trump Towers in New York is one of New York’s best and most pricey 5 star hotels. For a luxurious feel, visit Trump International Hotel and Tower New York.</p> 
+                      <p>This is the iconic New York that so many visitors imagine before they visit - spectacular skyscrapers like the Chrysler Building and Empire State Building, iconic public buildings like Grand Central Terminal and the New York Public Library, and the non-stop hustle and bustle of the city streets. Fifth Avenue is a shopper's paradise where you can find every kind of store imaginable, with fashion brands ranging from the affordable to the ultra-fancy.</p>
+                      <p>Address: 1 Central Park West, New York, NY 10023</p>
+                      <p>Cost: $450 - 600 per night</p>
+                      <div class="row">
+                      <div class="col-md-7">
+                          <p>Amenities:</p>
+                          <ul>
+                          <li>Pool</li>
+                              <li>Restaurant</li>
+                              <li>Room Service</li>
+                              <li>Spa</li>
+                              <li>Free Wi-Fi</li>
+                              <li>Bar/Lounge</li>
+                              <li>Fitness Center</li>
+                          </ul>
+                          </div>
+                          <div class="col-md-5">
+                          <a href="nycpics/trump1.jpg" class="fresco" data-fresco-group="unique_name"><img src="nycpics/trump1.jpg" class="thumbnail" style="width: 100%;"></a>
+                     <a href="nycpics/trump2.jpg" class="fresco" data-fresco-group="unique_name"><img src="nycpics/trump2.jpg" class="group"></a>
+                     <a href="nycpics/trump3.jpg" class="fresco" data-fresco-group="unique_name"><img src="nycpics/trump3.jpg" class="group"></a>
+                     <a href="nycpics/trump4.jpg" class="fresco" data-fresco-group="unique_name"><img src="nycpics/trump4.jpg" class="group"></a>
+                              <a href="nycpics/trump5.jpg" class="fresco" data-fresco-group="unique_name"><img src="nycpics/trump5.jpg" class="group"></a>
+                     Click on the picture to view more
+                        </div>
+                      </div>
+                      </div>
+                  <div class="tab-pane fade" id="casa">
+                 <h3>Casablanca Hotel Times Square</h3>
+                      <p>As a 4-star hotel in the heart of New York City, the Casablanca Hotel Times Square combines great location with reasonable pricing (around $250 a night). The hotel is well-known for its great Moroccan decorating and its complementary breakfast in its private lounge.</p> 
+                      <p>Located in New York’s iconic Central Park, visitors will have very easy access to the great shopping, dining, and attractions around New York from the Casablanca Hotel Times Square. </p>
+                      <p>Address: 147 West 43rd Street, New York, NY 10036</p>
+                      <p>Cost: $300-350 per night</p>
+                      <div class="row">
+                      <div class="col-md-7">
+                          <p>Amenities:</p>
+                          <ul>
+                          <li>Room Service</li>
+                                <li>Business Center with Internet Access</li>
+                                <li>Free Breakfast</li>
+                                <li>Dry Cleaning</li>
+                                <li>Meeting Rooms</li>
+                                <li>Laundry Service</li>
+                                <li>Concierge</li>
+                              <li>Multilingual Staff</li>
+                              <li>Babysitting</li>
+                              <li>Restaurant</li>
+                              <li>Bar/Lounge</li>
+                              <li>Wi-Fi</li>
+                          </ul>
+                          </div>
+                          <div class="col-md-5">
+                          <a href="nycpics/casa1.jpg" class="fresco" data-fresco-group="unique_name2"><img src="nycpics/casa1.jpg" class="thumbnail" style="width: 100%;"></a>
+                     <a href="nycpics/casa2.jpg" class="fresco" data-fresco-group="unique_name2"><img src="nycpics/casa2.jpg" class="group"></a>
+                     <a href="nycpics/casa3.jpg" class="fresco" data-fresco-group="unique_name2"><img src="nycpics/casa3.jpg" class="group"></a>
+                     <a href="nycpics/casa4.jpg" class="fresco" data-fresco-group="unique_name2"><img src="nycpics/casa4.jpg" class="group"></a>
+                     <a href="nycpics/casa5.jpg" class="fresco" data-fresco-group="unique_name2"><img src="nycpics/casa5.jpg" class="group"></a>
+                     Click on the picture to view more
+                        </div>
+                      </div>
+                      </div>
+                  <div class="tab-pane fade" id="nychilton">
+                  <h3>Hilton Garden Inn Times Square</h3>
+                      <p>The Hilton Garden Inn is a 3 star hotel in the heart of New York City. With its great location and pricing ($149), visitors will have to trade a little bit of the 5 star luxury for a more reasonable price. Located steps away from Broadway avenue and many of the great attractions in New York City, the hotel has one of the best locations.</p> 
+                      <p>Address: 790 Eighth Avenue, New York City, NY 10019</p>
+                      <p>Cost: $130 - 210 per night</p>
+                      <div class="row">
+                      <div class="col-md-7">
+                          <p>Amenities:</p>
+                          <ul>
+                          <li>Room Service</li>
+                                <li>Business Center with Internet Access</li>
+                                <li>Dry Cleaning</li>
+                                <li>Laundry Service</li>
+                              <li>Self-Serve Laundry</li>
+                              <li>Multilingual Staff</li>
+                              <li>Babysitting</li>
+                              <li>Restaurant</li>
+                              <li>Bar/Lounge</li>
+                              <li>Free internet</li>
+                              <li>Fitness Room</li>
+                          </ul>
+                          </div>
+                          <div class="col-md-5">
+                          <a href="nycpics/hilton1.jpg" class="fresco" data-fresco-group="unique_name3"><img src="nycpics/hilton1.jpg" class="thumbnail" style="width: 100%;"></a>
+                     <a href="nycpics/hilton2.jpg" class="fresco" data-fresco-group="unique_name3"><img src="nycpics/hilton2.jpg" class="group"></a>
+                     <a href="nycpics/hilton3.jpg" class="fresco" data-fresco-group="unique_name3"><img src="nycpics/hilton3.jpg" class="group"></a>
+                     <a href="nycpics/hilton4.jpg" class="fresco" data-fresco-group="unique_name3"><img src="nycpics/hilton4.jpg" class="group"></a>
+                              <a href="nycpics/hilton5.jpg" class="fresco" data-fresco-group="unique_name3"><img src="nycpics/hilton5.jpg" class="group"></a>
+                     Click on the picture to view more
+                        </div>
+                      </div>
+                      </div>
+                   
+              </div>
+              </div>
+              </div>
+          </div>
+      <div class="jumbotron" id="restaurants">
+          <div class="container attractions">
+      <h1 class="titletext">Restaurants</h1>
+              <div class="container">
+              <ul class="nav nav-tabs nav-justified contenttab white">
+  <li class="active"><a href="#daniel" data-toggle="tab">Daniel</a></li>
+  <li><a href="#colicchio" data-toggle="tab">Colicchio &amp; Sons</a></li>
+  <li><a href="#faicco" data-toggle="tab">Faicco's Pork Store</a></li>
+</ul>
+              <div id="content" class="tab-content">
+                  <div class="tab-pane fade active in" id="daniel">
+                      <h3>Daniel</h3>
+             <div class="row">
+                      <div class="col-md-7">
+                          <p>This pricey, Manhattan French cuisine offers all of the formalities and service of fine dining in New York City including a great wine collection. The price may run about $25 to $100 dollars though. </p>
+                          
+                 </div>
+                 <div class="col-md-5">
+                     <img src="nycpics/daniel.jpg" class="thumbnail" style="width: 100%;">
+                 </div>
+                      </div>
+                       
+                      </div>
+                  <div class="tab-pane fade" id="colicchio">
+                  <h3>Colicchio &amp; Sons</h3>
+             <div class="row">
+                      <div class="col-md-7">
+                          <p>Colicchio &amp; Sons is very famous for its dishes such as foie gras &amp; sea salt bread and its exceptional service. Located in the heart of New York City and as a luxury dining location, Colicchio &amp; Sons is one of New York’s best. </p>
+                          
+                 </div>
+                 <div class="col-md-5">
+                     <img src="nycpics/colicchio.jpg" class="thumbnail" style="width: 100%;">
+                 </div>
+                      </div>
+                       
+                      </div>
+                  <div class="tab-pane fade" id="faicco">
+                   <h3>Faicco's Pork Store</h3>
+             <div class="row">
+                      <div class="col-md-7">
+                          <p>Located in Manhattan, Faicco’s Pork Store is extremely famous for its great Italian cuisine and especially its sandwiches. They mostly serve premium deli sandwiches for about $10. </p>
+                          
+                 </div>
+                 <div class="col-md-5">
+                     <img src="nycpics/faicco.jpg" class="thumbnail" style="width: 100%;">
+                 </div>
+                      </div>
+                       
+                      </div>
+                  
+              </div>
+              </div>
+              </div>
+          </div>
+      
+      <div class="jumbotron jumbotron-white" id="packages">
+      <div class="container attractions">
+          <h1 class="titletext">Packages</h1>
+          <div class="row">
+          <div class="col-md-4 drop">
+              
+             <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> <img class="ribbbon" src="bronzeribbon.png">
+              
+  
+</a><br><p>Bronze Package (Starting from $1830)</p>
+              <div class="collapse" id="collapseExample">
+  <div class="well">
+    <p>Enjoy seven nights in our bronze package for New York City</p>
+      <div class="nontextcentered"><p>What's Included:</p>
+      <ul>
+      <li>Hilton Garden Inn Times Square weeklong stay starting from $1162 </li>
+          <li>Economy Car rental starting from $588</li>
+          <li>Up to 4 admissions to Empire State Building:  $30</li>
+          <li>Up to 4 admissions to Broadway Musical of Choice* : $50</li>
+      </ul>
+          <p>*Prices vary depending on the show; this value is not set and depends on the choice of the consumer</p>
+          </div>
+  </div>
+</div>
+              
+              </div>
+              <div class="col-md-4 drop">
+              <a data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample"> <img class="ribbbon" src="silverribbon.png">
+              
+  
+</a><br><p>Silver Package (Starting from $2538)</p>
+              <div class="collapse" id="collapseExample2">
+  <div class="well">
+     <p>Experience the grandness of New York City for seven nights in our silver package</p>
+      <div class="nontextcentered"><p>What's Included:</p>
+      <ul>
+      <li>Seven nights stay at the Casablanca Hotel Times Square starting from $1862</li>
+          <li>Mid Value Car rental starting from $596</li>
+          <li>Up to 4 admissions to Empire State Building:  $30</li>
+          <li>Up to 4 admissions to Broadway Musical of Choice* : $50</li>
+      </ul>
+          <p>*Prices vary depending on the show; this value is not set and depends on the choice of the consumer</p>
+          </div>
+  </div>
+</div>
+              </div>
+              <div class="col-md-4 drop">
+              <a data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample"> <img class="ribbbon" src="goldribbon.png">
+              
+  
+</a><br><p>Gold Package (Starting from $4330)</p>
+              <div class="collapse" id="collapseExample3">
+  <div class="well">
+    <p>The most luxurious way to visit New York City for seven nights is all included in our gold package</p>
+      <div class="nontextcentered"><p>What's Included:</p>
+      <ul>
+      <li>Seven nights at the Trump Tower New York starting from $3486</li>
+          <li>Luxury/ Sport Car rental starting from $764</li>
+          <li>Up to 4 admissions to Empire State Building:  $30</li>
+          <li>Up to 4 admissions to Broadway Musical of Choice* : $50</li>
+      </ul>
+          <p>*Prices vary depending on the show; this value is not set and depends on the choice of the consumer</p>
+          </div>
+  </div>
+</div> 
+              </div>
+              
+                  
+          </div>
+          
+          </div>
+      </div>
+      <div class="jumbotron" id="expenses">
+          <div class="container attractions">
+              <h3 class="titletext">Estimate the Price of Your Stay</h3>
+              <div class="row">
+                  <div class="col-md-4">
+              <div id="wrap">
+        <form action="" id="cakeform" onsubmit="return false;">
+        <div>
+            <div class="cont_order">
+               <fieldset>
+              
+    
+                <select class="form-control" id="filling" name='filling' onchange="calculateTotal()">
+                <option value="None">Number of Nights Staying</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="3weeks">3 weeks</option>
+                    <option value="4weeks">4 weeks</option>
+               
+               </select>
+                <br/>
+               <select class="form-control" id="filling2" name='filling2' onchange="calculateTotal()">
+                <option value="None">Choose a Hotel</option>
+                <option value="hotel1">Trump International Hotel and Tower New York (Starting from $450)</option>
+                <option value="hotel2">Casablanca Hotel Times Square (Starting from $300)</option>
+                <option value="hotel3">Hilton Garden Inn Times Square (Starting from $130)</option>
+               
+               </select><br />
+                <div id="totalPrice"></div>
+                
+                </fieldset>
+            </div>
+            
+        	
+            
+        </div>  
+       </form>
+	</div><!--End of wrap-->
+                       
+                      </div>
+                  <div class="col-md-4">
+                  <iframe id="QuickTripWidget" allowTransparency="true" src="http://www.quicktrip.com/quicktrip-widget.html?Affiliate=48bdd172-f175-4aca-ab9f-079cbbd8f61a&Mode=flight&Culture=en-CA" width="300" height="250" scrolling="no" frameBorder="0"></iframe>
+                  </div>
+                  <div class="col-md-3">
+                  <!-- EXCHANGERATES.ORG.UK US Dollar CURRENCY CONVERTER START -->
+<div style="width:178px;;margin:0;padding:0;border:1px solid #2D6AB4;background:#f0f0f0;">
+<div style="width:178px;text-align:center;padding:2px 0px;background:#2D6AB4;font-family:arial;font-size:11px;color:#ffffff;font-weight:bold;vertical-align:middle;">
+<img src="http://www.exchangerates.org.uk/images/flags/us.gif" style="padding-right:5px;">
+<a style="color:#ffffff;text-decoration:none;text-transform:uppercase;" href="http://www.exchangerates.org.uk/US-Dollar-USD-currency-table.html" target="_new" title="US Dollar Converter">US Dollar Converter</a></div><div style="padding:10px;">
+<script type="text/javascript">	
+var dcf = 'USD';
+var dct = 'EUR';
+var mc = '2D6AB4';
+var mbg = 'f0f0f0';
+var tc = 'ffffff';
+var f = 'arial';
+var fc = '000000';
+var tz = '0';
+
+</script><script type="text/javascript" src="http://www.currency.me.uk/remote/ER-CCCS2-1.php"></script></div></div>
+<!-- EXCHANGERATES.ORG.UK US Dollar CURRENCY CONVERTER END -->
+                  </div>
+              </div>
+          </div>
+          </div>
+     
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+      
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc2/js/bootstrap.min.js"></script>
+      <script type="text/javascript">
+// javascript will go here
+$(function(){
+
+    // Specify the ZIP/location code and units (f or c)
+    var loc = 'USNY0996'; // or e.g. SPXX0050
+    var u = 'f';
+
+    var query = "SELECT item.condition FROM weather.forecast WHERE location='" + loc + "' AND u='" + u + "'";
+    var cacheBuster = Math.floor((new Date().getTime()) / 1200 / 1000);
+    var url = 'http://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent(query) + '&format=json&_nocache=' + cacheBuster;
+
+    window['wxCallback'] = function(data) {
+        var info = data.query.results.channel.item.condition;
+        $('#wxIcon').css({
+            backgroundPosition: '-' + (61 * info.code) + 'px 0'
+        }).attr({
+            title: info.text
+        });
+        $('#wxIcon2').append('<img src="http://l.yimg.com/a/i/us/we/52/' + info.code + '.gif" width="34" height="34" title="' + info.text + '" />');
+        $('#wxTemp').html(info.temp + '&deg;' + (u.toUpperCase()));
+    };
+
+    $.ajax({
+        url: url,
+        dataType: 'jsonp',
+        cache: true,
+        jsonpCallback: 'wxCallback'
+    });
+    
+});
+</script>
+       <script>
+      $(function() {
+  $('a[href*=#][class*="smooth"]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+      </script>
+      </body>
+   <footer>
+    <div class="jumbotron jumbotron-footer">
+        <div class="social">
+            <h4>Connect to us with Social Media</h4>
+       <a target="_blank" href="https://www.facebook.com/wadvs"><img src="facebook42.png"></a>
+            <a target="_blank" href="https://twitter.com/wadvs27"><img src="twitter42.png"></a>
+            <a target="_blank" href="https://plus.google.com/116451774734759841468/about"><img src="google-plus42.png"></a>
+           <a target="_blank" href="https://www.pinterest.com/adventures0530/"><img src="pinterest42.png"></a>
+            
+             <p>&copy; 2014 | World Adventures | Vignesh Srivatsan, Raajesh Arunachalam, Bhavish Bhattar, Santan Katragadda|  </p>
+            
+            </div>
+   
+    
+    </div>
+    
+    </footer>
+    </html>

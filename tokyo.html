@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8">
+    <title>World Adventures</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="tokyostyle.css">
+      <link rel="stylesheet" href="flatui/dist/css/flat-ui.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script type="text/javascript" src="calcscript/formcalculationstokyo.js"></script>
+<script type="text/javascript" src="js/fresco/fresco.js"></script>
+<link rel="stylesheet" type="text/css" href="css/fresco/fresco.css"/>
+    
+  </head>
+
+  <body>
+    
+<div class="tokyointro nav_intro">
+    <div role="navigation" class="navbar navbar-fixed-top" >
+        <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header navstyle">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+    </div>
+    <!-- Collection of nav links and other content for toggling -->
+            <div class="nav-wrapper">
+    <div id="navbarCollapse" class="collapse navbar-collapse navstyle" data-spy="affix" data-offset-top="20">
+        <ul class="nav navbar-nav">
+            <li><a href="index.html"><img src="logo.png" class="logo"></a></li>
+            <li class="navlink"><a href="#attractions" class="smooth">Attractions</a></li>
+            <li class="navlink"><a href="#hotels" class="smooth">Hotels</a></li>
+            <li class="navlink"><a href="#restaurants" class="smooth">Restaurants</a></li>
+            <li class="navlink"><a href="#packages" class="smooth">Packages</a></li>
+           
+            
+         
+             <li class="navlink"><a href="contact.html">Contact</a></li>
+            <li class="navlink"><a href="itinerary.html">Itinerary</a></li>
+            <li class="dropdown navlink">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Destinations<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+                            <li><a href="dubai.html">Dubai</a></li>
+                            <li><a href="tokyo.html">Tokyo</a></li>
+                            <li><a href="london.html">London</a></li>
+                            <li><a href="nyc.html">New York City</a></li>
+                            <li><a href="paris.html">Paris</a></li>
+                            <li><a href="hongkong.html">Hong Kong</a></li>
+                            <li><a href="bangkok.html">Bangkok</a></li>
+                            <li><a href="rio.html">Rio De Janeiro</a></li>
+                        </ul>
+                    </li>
+            
+        </ul>
+    </div>
+            </div>
+</div>
+        </div>
+    <div class="tokyotitlearea">
+      <div class="container">
+        
+    
+        <h1>Tokyo</h1>
+                   <p>Scroll down to learn everything about Tokyo</p>
+      
+   
+         <p><a href="http://time.is/Tokyo" id="time_is_link" rel="nofollow"></a>
+          <span class="timeintro">Time in Tokyo:</span>
+<span id="Tokyo_z444"></span>
+<script src="http://widget.time.is/t.js"></script>
+<script>
+time_is_widget.init({Tokyo_z444:{time_format:"12hours:minutesAMPM"}});
+</script></p>
+         </div>
+
+            <div class="iweather" >
+            <iframe src="http://www.weatherfor.us/load.php?location=tokyo" scrolling="no" frameborder="0" allowtransparency="true" style="background: transparent; width: 720px; height: 250px; overflow: hidden;"></iframe>
+
+
+            </div>
+         </div>
+     
+<a href="#video" class="smooth"><img src="downarrow.png" class="arrow"></a>
+    </div> 
+         
+
+      <div class="jumbotron jumbotron-white" id="video">
+          <div class="container attractions video">
+              <h3 class="videotext">Welcome to Tokyo</h3>
+              <div class="row">
+                  <div class="col-md-6">
+                      <p><b>Here's an overview of Tokyo</b></p>
+                      <div class="video-container">
+              <iframe width="560" height="315" src="http://www.youtube.com/embed/cS-hFKC_RKI" frameborder="0" allowfullscreen></iframe></div>
+                      </div>
+                  <div class="col-md-6">
+                      <p><b>Here's a map of Tokyo including various hotels and restaurants</b></p>
+                   <iframe
+class="map"
+    width="160"
+  height="315"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBVGC6tXormt3XyRZBS2QSJk58zVr1IBrY&q=hotels+restaurants+attractions+in+Tokyo">
+</iframe>
+                  </div>
+              </div>
+              </div>
+           </div>
+      <div class="jumbotron" id="attractions">
+          <div class="container attractions">
+      <h1 class="titletext">Attractions</h1>
+              <div class="container">
+              <ul class="nav nav-tabs nav-justified contenttab white">
+  <li class="active"><a href="#shinjuku" data-toggle="tab">Shinjuku Garden</a></li>
+  <li><a href="#meiji" data-toggle="tab">Meiji Shrine</a></li>
+  <li><a href="#something" data-toggle="tab">Nezu Museum</a></li>
+ 
+</ul>
+              <div id="content" class="tab-content">
+                  <div class="tab-pane fade active in" id="shinjuku">
+                      <h3>Shinjuku Garden</h3>
+                      <div class="row">
+                          <div class="col-md-7">
+             <p>One of Japan's best attractions, Shinjuku Gyoen is comprised of three different types of gardens:
+The oldest is a traditional Japanese landscape garden featuring large ponds dotted with islands and bridges. Well manicured shrubs and trees surround the water together with several pavilions and the Kyu Goryotei (also called the Taiwan Pavilion) which was built on the occasion of the wedding of the Showa Emperor. A chrysanthemum exhibit is held during the first two weeks of November in the Japanese garden with flower displays and large, temporary pavilions erected around the grounds.
+
+</p>
+    <p>Hours: 9am to 4:30pm (Entry until 4pm)</p>
+                              <p>Admission: 200 yen (1.68 US Dollars)</p>
+         </div>
+            <div class="attraction col-md-5">
+                          <img src="shinjuku.jpg" class="thumbnail" style="width: 100%;">
+                          </div>
+      </div>                 
+                      </div>
+                  <div class="tab-pane fade" id="meiji">
+                         <h3>Meiji Shirne</h3>
+                      <div class="row">
+                     <div class="col-md-7">
+                     <p>Meiji Shrine is a shrine dedicated to the deified spirits of Emperor Meiji and his consort, Empress Shoken. Located just beside the JR Yamanote Line's busy Harajuku Station, Meiji Shrine and the adjacent Yoyogi Park make up a large forested area within the densely built-up city. The spacious shrine grounds offer walking paths that are great for a relaxing stroll.
+</p>
+                      
+                         <p>Hours: 9am to 4:30pm</p>
+                         <p>Admission: 500 yen (4.21 US Dollars)</p>
+                         </div>
+                     <div class="attraction col-md-5">
+                     <img src="tokyopics/meiji.jpg" class="thumbnail" style="width: 100%;">
+                     </div>
+              </div>
+                  </div>
+                  <div class="tab-pane fade" id="something">
+                      <h3>Nezu Museum</h3>
+                      <div class="row">
+                      <div class="col-md-7">
+            <p>The industrialist and president of Tobu Railway, NEZU Kaichiro, Sr.(1860-1940) established a foundation in his will to preserve his personal collection. The museum opened at his private residence on this Aoyama site the following year,in 1941. Set in the spacious traditional-style garden with pond are several tea houses (chashitsu) because Kaichiro was an enthusiastic practitioner of 'the way of tea.'The Nezu Museum is considered especially strong in arts related to 'tea.'</p>
+                          
+                      <p>Admission (Adult): 1000 yen (8.41 US Dollars)</p>
+                          <p>Admission (Student): 800 yen (6.73 US Dollars)</p>
+                          <p>Hours: 10am to 5pm</p>
+                      </div>
+                      <div class="attraction col-md-5">
+                      <img src="tokyopics/nezu.jpg" class="thumbnail" style="width: 100%;">
+                      </div>
+                      </div> 
+                  </div>
+                   
+              </div>
+              </div>
+              </div>
+          </div>
+     <div class="jumbotron jumbotron-white" id="hotels">
+          <div class="container attractions">
+      <h1 class="titletext">Hotels</h1>
+              <div class="container">
+              <ul class="nav nav-tabs nav-justified contenttab">
+  <li class="active"><a href="#ritz" data-toggle="tab">Ritz-Carlton</a></li>
+  <li><a href="#imperial" data-toggle="tab">Imperial Hotel</a></li>
+  <li><a href="#sunroute" data-toggle="tab">Hotel Sunroute Plaza</a></li>
+</ul>
+              <div id="content" class="tab-content">
+                  <div class="tab-pane fade active in" id="ritz">
+                      <h3>Ritz-Carlton</h3>
+             <p>Just opened 7 years ago, the Ritz-Carlton Tokyo is one of Tokyo's finest five star hotels. The Ritz-Carlton is located 90 minutes away from Narita International Airport and is located near many shopping centers/restaurants on the top nine floors of Tokyo's largest building, the 53-story Midtown Tower. The Ritz-Carlton is one of the more pricey hotels in Tokyo, running at around $200-$500 dollars per night. The Ritz-Carlton has been awarded a Top 50 hotel status worldwide as part of the 5-star alliance and awarded Conde Nast Traveler 2014 Gold List for Best Hotels in Asia and Australia</p>
+                      
+                      <div class="row">
+                      <div class="col-md-4">
+                          <p>Amenities:</p>
+                          <ul>
+                          <li>Banquets and Meetings</li>
+                              <li>Business Center</li>
+                              <li>Meeting Space</li>
+                              <li>Fine Dining on Site and Nearby</li>
+                              <li>Fitness Center</li>
+                              <li>High Speed Internet</li>
+                              <li>Pool, Indoor</li>
+                              <li>Spa Facility</li>
+                          </ul>
+                          </div>
+                          <div class="col-md-3">
+                          <p>Available Activities</p>
+                          <ul>
+                          <li>Dining</li>
+                              <li>Jogging and Running</li>
+                              <li>Shopping</li>
+                              <li>Theatre and Museums</li>
+                          </ul>
+                          </div>
+                      <div class="col-md-5">
+                          <a href="tokyopics/ritz1.jpg" class="fresco" data-fresco-group="ritz"><img src="tokyopics/ritz1.jpg" class="thumbnail" style="width: 100%;"></a>
+                     <a href="tokyopics/ritz2.jpg" class="fresco" data-fresco-group="ritz"><img src="tokyopics/ritz2.jpg" class="group"></a>
+                     <a href="tokyopics/ritz3.jpg" class="fresco" data-fresco-group="ritz"><img src="tokyopics/ritz3.jpg" class="group"></a>
+                     <a href="tokyopics/ritz4.jpg" class="fresco" data-fresco-group="ritz"><img src="tokyopics/ritz4.jpg" class="group"></a>
+                     <a href="tokyopics/ritz5.jpg" class="fresco" data-fresco-group="ritz"><img src="tokyopics/ritz5.jpg" class="group"></a>
+                     Click on the picture to view more
+                          
+                          </div>
+                      </div>
+                       
+                      </div>
+                  <div class="tab-pane fade" id="imperial">
+                 <h3>Imperial Hotel</h3>
+                     
+                      <p>The Imperial Hotel is a short distance from the shopping and theater districts of Ginza and Marunouchi. The hotel's location in Hibiya also provides outstanding access to Tokyo International Forum and to government agencies.
+In addition, the Imperial Hotel's proximity to major traffic hubs assures convenient access to popular areas such as Roppongi, Akihabara, and Shibuya. The hotel is also conveniently located for post offices and convenience stores.</p>
+                      <div class="row">
+                      <div class="col-md-4">
+                          <p>Amenities:</p>
+                          <ul>
+                          <li>Women's toiletries: Foaming Cleanser, Lotion, Emulsion</li>
+                              <li>Women's amenities: Cotton balls, Nail file, Nail polish remover, Hair elastic</li>
+                              <li>Men's toiletries: Hair tonic, Hair styling liquid, Aftershave lotion</li>
+                              <li>Makeup remover</li>
+                              <li>Sewing Kits</li>
+                              <li>Bath additives</li>
+                              <li>Body lotion and other amenities</li>
+                         
+                          </ul>
+                          </div>
+                          <div class="col-md-3">
+                          <p>Equipment Upon Request</p>
+                          <ul>
+                          <li>Humidifiers</li>
+                              <li>DVD players</li>
+                              <li>Mobile phone chargers</li>
+                              <li>Extra pillows, pajamas, and other items</li>
+                          </ul>
+                          </div>
+                      <div class="col-md-5">
+                          <a href="tokyopics/imperial1.jpg" class="fresco" data-fresco-group="ritz1"><img src="tokyopics/imperial1.jpg" class="thumbnail" style="width: 100%;"></a>
+                     <a href="tokyopics/imperial2.jpg" class="fresco" data-fresco-group="ritz1"><img src="tokyopics/imperial2.jpg" class="group"></a>
+                     <a href="tokyopics/imperial3.jpg" class="fresco" data-fresco-group="ritz1"><img src="tokyopics/imperial3.jpg" class="group"></a>
+                     <a href="tokyopics/imperial4.jpg" class="fresco" data-fresco-group="ritz1"><img src="tokyopics/imperial4.jpg" class="group"></a>
+                          <a href="tokyopics/imperial5.jpg" class="fresco" data-fresco-group="ritz1"><img src="tokyopics/imperial5.jpg" class="group"></a>
+                     Click on the picture to view more
+                          
+                          </div>
+                      </div>
+              
+                  </div>
+                  <div class="tab-pane fade" id="sunroute">
+                  <h3>Hotel Sunroute Plaza</h3>
+                      <p>With sleek accommodations in the heart of Shinjuku business district, Hotel Sunroute Plaza Shinjuku makes for a chic retreat in the Japan capital. Guests at this value-for-money hotel can have a glimpse of the local heritage by touring Tokyo National Museum and Tokyo Imperial Palace. A Tokyo trip is not complete without taking in city view from Tokyo Tower and shopping at Shibuya district.</p>
+                      <p>
+Pricing: This 3-star hotel runs prices of around $100 a night.</p>
+                      <div class="row">
+                      <div class="col-md-4">
+                          <p>Amenities:</p>
+                          <ul>
+                          <li>Ballroom</li>
+                              <li>Business Centre</li>
+                              <li>Currency Exchange Services</li>
+                              <li>Faxing Facilities</li>
+                              <li>Lift / Elevator</li>
+                              <li>Photocopying Facilities</li>
+                              <li>Safe Deposit Box</li>
+                              <li>Banquet Facilities</li>
+                              <li>Cafe</li>
+                              <li>Dining Room</li>
+                          </ul>
+                          </div>
+                          <div class="col-md-3">
+                              <p>Amenities (cont.):</p>
+                          <ul>
+                          <li>Internet Access - High Speed</li>
+                              <li>Non-Smoking Rooms</li>
+                              <li>Reception</li>
+                              <li>Spa / Wellness Centre</li>
+                              <li>Bar / Lounge</li>
+                              <li>Conference Facilities</li>
+                              <li>Disabled Facilities</li>
+                              <li>Laundry Facilities</li>
+                              <li>Parking Facilities (At Cost)</li>
+                              <li>Restaurant</li>
+                          </ul>
+                          </div>
+                      <div class="col-md-5">
+                          <a href="tokyopics/sunroute1.jpg" class="fresco" data-fresco-group="ritz2"><img src="tokyopics/sunroute1.jpg" class="thumbnail" style="width: 100%;"></a>
+                     <a href="tokyopics/sunroute2.jpg" class="fresco" data-fresco-group="ritz2"><img src="tokyopics/sunroute2.jpg" class="group"></a>
+                     <a href="tokyopics/sunroute3.jpg" class="fresco" data-fresco-group="ritz2"><img src="tokyopics/sunroute3.jpg" class="group"></a>
+                     <a href="tokyopics/sunroute4.jpg" class="fresco" data-fresco-group="ritz2"><img src="tokyopics/sunroute4.jpg" class="group"></a>
+                          <a href="tokyopics/sunroute5.jpg" class="fresco" data-fresco-group="ritz2"><img src="tokyopics/sunroute5.jpg" class="group"></a>
+                     Click on the picture to view more
+                          
+                          </div>
+                      </div>
+                      
+                  </div>
+                   
+              </div>
+              </div>
+              </div>
+          </div>
+      <div class="jumbotron" id="restaurants">
+          <div class="container attractions">
+      <h1 class="titletext">Restaurants</h1>
+              <div class="container">
+              <ul class="nav nav-tabs nav-justified contenttab white">
+  <li class="active"><a href="#sushi" data-toggle="tab">Sushi Bar Yasuda</a></li>
+  <li><a href="#takazawa" data-toggle="tab">Takazawa</a></li>
+  <li><a href="#kyubei" data-toggle="tab">Kyubei Main Restaurant</a></li>
+</ul>
+              <div id="content" class="tab-content">
+                  <div class="tab-pane fade active in" id="sushi">
+                      <h3>Sushi Bar Yasuda</h3>
+                      <div class="row">
+                          <div class="col-md-7">
+             <p>This world famous sushi bar brings out the exquisite intricacies of one of Japan's most famed foods, sushi. The bar has been rated a perfect 5 out of 5 on trip advisor and is world famous for its chef Chief Yasuda and has opened another location in New York. It may run you a hefty bill, but it is a restaurant that all tourists must attend, winning a certificate of excellence in 2014.</p>
+                      <p>Price: $66-83</p>
+                      <p>Hours: Tuesday through Saturday 6pm-11pm</p>
+                              <p>Address: 4-2-6 Minamiaoyama | Minamiaoyama426 FloorB1F, Minato 107-0062</p>
+                              </div>
+                          <div class="col-md-5">
+                     <img src="tokyopics/sushi.jpg" class="thumbnail" style="width: 100%;">
+                              </div>
+                       </div>
+                      </div>
+                  <div class="tab-pane fade" id="takazawa">
+                 <h3>Takazawa</h3>
+                     <div class="row">
+                      <div class="col-md-7">
+                        <p>Takazawa is known for its fine French and Japanese fusion cuisine. The atmosphere has been described as both gracious and refined and the service is rated very highly. It has also won a Certificate of Excellence in 2014.</p> 
+                          <p>Address: 3-5-2 Akasaka, Minato, Tokyo Prefecture</p>
+                    </div>
+                         <div class="col-md-5">
+                         <img src="tokyopics/takazawa.jpg" class="thumbnail" style="width: 100%;">
+                         </div>
+                      </div>
+              
+                  </div>
+                  <div class="tab-pane fade" id="kyubei">
+                  
+                     <h3>Kyubei Main Restaurant</h3>
+                     <div class="row">
+                      <div class="col-md-7">
+                        <p>With one of the lowest price ranges at $0-$2, Kyubei Main Restaurant will give you a lot of bang for your buck. It is very popular for its great sushi, but also serves other famous items in the Japanese cuisine.</p> 
+                          <p>Price: $0-$2</p>
+                          <p>Address: 7-6, Ginza 8-chome, Chuo 104-0061, Tokyo Prefecture</p>
+                          <p>Hours: 11:30 am - 12 PM</p>
+                    </div>
+                         <div class="col-md-5">
+                         <img src="tokyopics/kyubei.jpg" class="thumbnail" style="width: 100%;">
+                         </div>
+                      </div>
+              
+                  </div>
+                      
+                  </div>
+                   
+              </div>
+              </div>
+              </div>
+       
+    <div class="jumbotron jumbotron-white" id="packages">
+      <div class="container attractions">
+          <h1 class="titletext">Packages</h1>
+          <div class="row">
+          <div class="col-md-4 drop">
+              
+             <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> <img class="ribbbon" src="bronzeribbon.png">
+              
+  
+</a><br><p>Bronze Package (Starting from $1202)</p>
+              <div class="collapse" id="collapseExample">
+  <div class="well">
+    <p>Enjoy seven nights in our bronze package for Tokyo</p>
+      <div class="nontextcentered"><p>What's Included:</p>
+      <ul>
+      <li>Hotel Sunroute Plaza Shinjuku weeklong stay starting from $791 </li>
+          <li>Economy Car rental starting from $395</li>
+          <li>Up to 4 admissions to Shinjuku Garden: $2</li>
+          <li>Up to 4 admissions to Meiji Shrine: $5</li>
+          <li>Up to 4 admissions to Nezu Museum: $9</li>
+      </ul>
+          </div>
+  </div>
+</div>
+              
+              </div>
+              <div class="col-md-4 drop">
+              <a data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample"> <img class="ribbbon" src="silverribbon.png">
+              
+  
+</a><br><p>Silver Package (Starting from $2597)</p>
+              <div class="collapse" id="collapseExample2">
+  <div class="well">
+     <p>Experience the grandness of Tokyo for seven nights in our silver package</p>
+      <div class="nontextcentered"><p>What's Included:</p>
+      <ul>
+      <li>Seven nights stay at the Imperial Hotel Tokyo starting from $2086</li>
+          <li>Mid Value Car rental starting from $495</li>
+          <li>Up to 4 admissions to Shinjuku Garden: $2</li>
+          <li>Up to 4 admissions to Meiji Shrine: $5</li>
+          <li>Up to 4 admissions to Nezu Museum: $9</li>
+      </ul>
+          </div>
+  </div>
+</div>
+              </div>
+              <div class="col-md-4 drop">
+              <a data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample"> <img class="ribbbon" src="goldribbon.png">
+              
+  
+</a><br><p>Gold Package (Starting from $3910)</p>
+              <div class="collapse" id="collapseExample3">
+  <div class="well">
+    <p>The most luxurious way to visit Tokyo for seven nights is all included in our gold package</p>
+      <div class="nontextcentered"><p>What's Included:</p>
+      <ul>
+      <li>Seven nights at the The Ritz- Carlton starting from $3199</li>
+          <li>Luxury Car rental starting from $695</li>
+          <li>Up to 4 admissions to Shinjuku Garden: $2</li>
+          <li>Up to 4 admissions to Meiji Shrine: $5</li>
+          <li>Up to 4 admissions to Nezu Museum: $9</li>
+      </ul>
+          </div>
+  </div>
+</div> 
+              </div>
+              
+                  
+          </div>
+          
+          </div>
+      </div>
+            <div class="jumbotron" id="expenses">
+          <div class="container attractions">
+              <h3 class="titletext">Estimate the Price of Your Stay</h3>
+              <div class="row">
+                  <div class="col-md-4">
+              <div id="wrap">
+        <form action="" id="cakeform" onsubmit="return false;">
+        <div>
+            <div class="cont_order">
+               <fieldset>
+              
+    
+                <select class="form-control" id="filling" name='filling' onchange="calculateTotal()">
+                <option value="None">Number of Nights Staying</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="3weeks">3 weeks</option>
+                    <option value="4weeks">4 weeks</option>
+               
+               </select>
+                <br/>
+               <select class="form-control" id="filling2" name='filling2' onchange="calculateTotal()">
+                <option value="None">Choose a Hotel</option>
+                <option value="hotel1">Ritz-Carlton (Starting from $457)</option>
+                <option value="hotel2">Imperial Hotel Tokyo (Starting from $298)</option>
+                <option value="hotel3">Hotel Sunroute Plaza (Starting from $107)</option>
+               
+               </select><br />
+                <div id="totalPrice"></div>
+                
+                </fieldset>
+            </div>
+            
+        	
+            
+        </div>  
+       </form>
+	</div><!--End of wrap-->
+                       
+                      </div>
+                  <div class="col-md-4">
+                      <iframe id="QuickTripWidget" allowTransparency="true" src="http://www.quicktrip.com/quicktrip-widget.html?Affiliate=48bdd172-f175-4aca-ab9f-079cbbd8f61a&Mode=flight&Culture=en-CA" width="300" height="250" scrolling="no" frameBorder="0"></iframe>
+                      </div>
+                  <div class="col-md-3">
+                  <!-- EXCHANGERATES.ORG.UK US Dollar CURRENCY CONVERTER START -->
+<div style="width:178px;;margin:0;padding:0;border:1px solid #2D6AB4;background:#f0f0f0;">
+<div style="width:178px;text-align:center;padding:2px 0px;background:#2D6AB4;font-family:arial;font-size:11px;color:#ffffff;font-weight:bold;vertical-align:middle;">
+<img src="http://www.exchangerates.org.uk/images/flags/us.gif" style="padding-right:5px;">
+<a style="color:#ffffff;text-decoration:none;text-transform:uppercase;" href="http://www.exchangerates.org.uk/US-Dollar-USD-currency-table.html" target="_new" title="US Dollar Converter">US Dollar Converter</a></div><div style="padding:10px;">
+<script type="text/javascript">	
+var dcf = 'USD';
+var dct = 'EUR';
+var mc = '2D6AB4';
+var mbg = 'f0f0f0';
+var tc = 'ffffff';
+var f = 'arial';
+var fc = '000000';
+var tz = '0';
+
+</script><script type="text/javascript" src="http://www.currency.me.uk/remote/ER-CCCS2-1.php"></script></div></div>
+<!-- EXCHANGERATES.ORG.UK US Dollar CURRENCY CONVERTER END -->
+                  </div>
+              </div>
+          </div>
+                </div>
+      
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+      
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc2/js/bootstrap.min.js"></script>
+      <script type="text/javascript">
+// javascript will go here
+$(function(){
+
+    // Specify the ZIP/location code and units (f or c)
+    var loc = 'JAXX0085'; // or e.g. SPXX0050
+    var u = 'f';
+
+    var query = "SELECT item.condition FROM weather.forecast WHERE location='" + loc + "' AND u='" + u + "'";
+    var cacheBuster = Math.floor((new Date().getTime()) / 1200 / 1000);
+    var url = 'http://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent(query) + '&format=json&_nocache=' + cacheBuster;
+
+    window['wxCallback'] = function(data) {
+        var info = data.query.results.channel.item.condition;
+        $('#wxIcon').css({
+            backgroundPosition: '-' + (61 * info.code) + 'px 0'
+        }).attr({
+            title: info.text
+        });
+        $('#wxIcon2').append('<img src="http://l.yimg.com/a/i/us/we/52/' + info.code + '.gif" width="34" height="34" title="' + info.text + '" />');
+        $('#wxTemp').html(info.temp + '&deg;' + (u.toUpperCase()));
+    };
+
+    $.ajax({
+        url: url,
+        dataType: 'jsonp',
+        cache: true,
+        jsonpCallback: 'wxCallback'
+    });
+    
+});
+</script>
+       <script>
+      $(function() {
+  $('a[href*=#][class*="smooth"]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+      </script>
+      </body>
+    <footer>
+    <div class="jumbotron jumbotron-footer">
+        <div class="social">
+            <h4>Connect to us with Social Media</h4>
+       <a target="_blank" href="https://www.facebook.com/wadvs"><img src="facebook42.png"></a>
+            <a target="_blank" href="https://twitter.com/wadvs27"><img src="twitter42.png"></a>
+            <a target="_blank" href="https://plus.google.com/116451774734759841468/about"><img src="google-plus42.png"></a>
+           <a target="_blank" href="https://www.pinterest.com/adventures0530/"><img src="pinterest42.png"></a>
+            
+             <p>&copy; 2014 | World Adventures | Vignesh Srivatsan, Raajesh Arunachalam, Bhavish Bhattar, Santan Katragadda| </p>
+            
+            </div>
+   
+    
+    </div>
+    
+    </footer>
+    </html>

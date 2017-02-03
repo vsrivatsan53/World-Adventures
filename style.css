@@ -1,0 +1,650 @@
+html, body {
+height:100%;
+margin:0;
+padding:0;
+}
+.navbar-wrapper {
+    z-index:9999;
+    position:absolute;
+
+}
+.navstyle {
+    position:relative;
+    top:8px;
+    z-index:9999;
+}
+#navbarCollapse.affix {
+   
+    width: 100%;
+    top:0;
+    left:0;
+    padding-right:260px;
+    background-color:#2c3e50;
+    z-index:9999;
+     -webkit-transition:width 2s, height 2s, background-color 0.5s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 0.5s, transform 2s;
+}
+
+@media (min-width: 768px) {
+    #navbarCollapse.affix {
+        position: fixed;
+    }
+}
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+.fade-in {
+ opacity:0;  /* make things invisible upon start */
+ -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+ -moz-animation:fadeIn ease-in 1;
+ animation:fadeIn ease-in 1;
+ 
+ -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+ -moz-animation-fill-mode:forwards;
+ animation-fill-mode:forwards;
+ 
+ -webkit-animation-duration:1s;
+ -moz-animation-duration:1s;
+ animation-duration:1s;
+}
+
+.navstyle a {
+  color: #ecf0f1;
+  font-size: 16px;
+  padding: 14px 30px;
+  text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    z-index:9999;
+}
+
+.navstyle a:hover {
+ color: #fff; 
+    z-index:9999;
+}
+
+.navstyle a:before {
+ content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+    z-index:9999;
+} 
+
+.navstyle a:hover:before {
+     visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.navstyle li {
+  display: inline;
+    position:relative;
+    z-index:9999;
+}
+
+
+.itinerary_intro {
+  background-color:#2c3e50;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+position:relative;
+
+}
+
+@media (min-width: 768px) {
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
+    .navbar-fixed-top {
+        position:relative;
+    }
+}
+.dropdown-menu {
+    top: 45px;
+}
+
+
+
+.titlearea .container {
+  position: relative;
+  top: 170px;
+    left:140px;
+}
+
+.titlearea2 .container {
+  position: relative;
+  top: 120px;
+
+}
+
+.nav_intro {
+    position:absolute;
+    z-index:12;
+    text-align:center;
+}
+.nav_intro h1 {
+  color: #fff;
+  font-size: 55px;  
+  font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    text-align:center;
+    
+}
+
+
+.nav_intro p {
+  font-size: 20px;
+  color: #ecf0f1;
+    font-weight: 500;
+  position: relative; 
+    text-align:center;
+}
+.destinations {
+    background-color:#ebeeed;
+        
+}
+.destinations h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+    font-size: 32px;
+}
+.destinations p {
+    text-align:center;
+}
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.neighborhood-guides {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.neighborhood-guides h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.neighborhood-guides p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+ .wrap {
+      overflow: hidden;
+      margin: 10px;
+    }
+  .zit
+{
+    position:relative;
+    width:250px;
+    height:250px;
+    left:0px;
+    top:0px;
+    border-radius:5px;
+    z-index:auto;
+    
+    /* Apply a CSS3 Transition to width, height, top and left properties */
+    transition: width 0.3s ease,height 0.3s ease,left 0.3s ease,top 0.3s ease;
+    -webkit-transition: width 0.3s ease,height 0.3s ease,left 0.3s ease,top 0.3s ease;
+    -o-transition: width 0.3s ease,height 0.3s ease,left 0.3s ease,top 0.3s ease;
+    -moz-transition: width 0.3s ease,height 0.3s ease,left 0.3s ease,top 0.3s ease;
+}
+
+.zit:hover
+{
+    width:300px;
+    height:300px;
+    left:-25px;
+    top:-25px;
+    z-index:1;
+    
+}
+.ZoomIt {
+    margin-bottom: 50px;
+   position:relative;
+    right:15px;
+    
+    
+}
+.ZoomIt ul
+{
+clear:both;
+}
+.ZoomIt li
+{
+width:250px;
+height:250px;
+margin:15px;
+float: left;
+overflow:visible;
+display: block;
+}
+    body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+      margin-bottom: 0;
+    }
+    @media only screen and (max-width : 480px) {
+      /* Smartphone view: 1 tile */
+      .box {
+        width: 100%;
+        
+      }
+    }
+    @media only screen and (max-width : 650px) and (min-width : 481px) {
+      /* Tablet view: 2 tiles */
+      .box {
+        width: 50%;
+        
+      }
+    }
+    @media only screen and (max-width : 1050px) and (min-width : 651px) {
+      /* Small desktop / ipad view: 3 tiles */
+      .box {
+        width: 33.3%;
+        
+      }
+    }
+    @media only screen and (max-width : 1290px) and (min-width : 1051px) {
+      /* Medium desktop: 4 tiles */
+      .box {
+        width: 25%;
+        
+      }
+    }
+  
+  
+.jumbotron-footer {
+    background-color:#2c3e50;
+
+    color: #fff;
+}
+
+.jumbotron-footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-shadow:none;
+    position:relative;
+    margin-left:20px;
+}
+.jumbotron-footer a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-shadow:none;
+    position:relative;
+    color:#fff;
+    font-weight:100;
+    text-decoration:underline;
+}
+
+.jumbotron-footer a:hover {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-shadow:none;
+    position:relative;
+    color:#16a085;
+    font-weight:100;
+    text-decoration:underline;
+}
+
+.social {
+text-align:center;
+    padding:10px;
+}
+
+.social img {
+    padding:20px;
+}
+.jumbotron-white {
+    background-color:#fff;
+}
+
+.ZoomIt h4 {
+    z-index:9999;
+}
+
+/* entire container, keeps perspective */
+.flip-container{
+/*perspective*/
+-webkit-perspective:1000;
+   -moz-perspective:1000;
+    -ms-perspective:1000;
+     -o-perspective:1000;
+        perspective:1000;
+}
+/* flip the pane when hovered */
+	.flipped {
+/*transform*/
+-webkit-transform:rotateY(180deg);
+   -moz-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+     -o-transform:rotateY(180deg);
+        transform:rotateY(180deg);
+}
+.flip-container, .front, .back{
+width:250px;
+height:250px;
+}
+/* flip speed goes here */
+.flipper {
+/*transition*/
+-webkit-transition:0.6s;
+   -moz-transition:0.6s;
+     -o-transition:0.6s;
+        transition:0.6s;
+/*transform-style*/
+-webkit-transform-style:preserve-3d;
+   -moz-transform-style:preserve-3d;
+    -ms-transform-style:preserve-3d;
+     -o-transform-style:preserve-3d;
+        transform-style:preserve-3d;
+position:relative;
+}
+/* hide back of pane during swap */
+.front, .back{
+/*backface-visibility*/
+-webkit-backface-visibility:hidden;
+   -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden;
+     -o-backface-visibility:hidden;
+        backface-visibility:hidden;
+position:absolute;
+top:0;
+left:0;
+}
+/* front pane, placed above back */
+.front{
+z-index:2;
+}
+/* back, initially hidden pane */
+.backlondon{
+/*transform*/
+-webkit-transform:rotateY(180deg);
+   -moz-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+     -o-transform:rotateY(180deg);
+        transform:rotateY(180deg);
+    background-image:url(londontile.jpg);
+        text-align:center; 
+    position:relative;
+}
+
+.backtokyo{
+/*transform*/
+-webkit-transform:rotateY(180deg);
+   -moz-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+     -o-transform:rotateY(180deg);
+        transform:rotateY(180deg);
+    background-image:url(tokyotile.jpg);
+        text-align:center; 
+    position:relative;
+}
+
+.backdubai{
+/*transform*/
+-webkit-transform:rotateY(180deg);
+   -moz-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+     -o-transform:rotateY(180deg);
+        transform:rotateY(180deg);
+    background-image:url(dubaitile.jpg);
+        text-align:center; 
+    position:relative;
+}
+
+.backnyc{
+/*transform*/
+-webkit-transform:rotateY(180deg);
+   -moz-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+     -o-transform:rotateY(180deg);
+        transform:rotateY(180deg);
+    background-image:url(nyctile.jpg);
+        text-align:center; 
+    position:relative;
+}
+
+.backparis{
+/*transform*/
+-webkit-transform:rotateY(180deg);
+   -moz-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+     -o-transform:rotateY(180deg);
+        transform:rotateY(180deg);
+    background-image:url(paristile.jpg);
+        text-align:center; 
+    position:relative;
+}
+
+.backhongkong{
+/*transform*/
+-webkit-transform:rotateY(180deg);
+   -moz-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+     -o-transform:rotateY(180deg);
+        transform:rotateY(180deg);
+    background-image:url(hongkongtile.jpg);
+        text-align:center; 
+    position:relative;
+}
+
+.backbangkok{
+/*transform*/
+-webkit-transform:rotateY(180deg);
+   -moz-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+     -o-transform:rotateY(180deg);
+        transform:rotateY(180deg);
+    background-image:url(bangkoktile.jpg);
+        text-align:center; 
+    position:relative;
+}
+
+.backrio{
+/*transform*/
+-webkit-transform:rotateY(180deg);
+   -moz-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+     -o-transform:rotateY(180deg);
+        transform:rotateY(180deg);
+    background-image:url(riotile.jpg);
+        text-align:center; 
+    position:relative;
+}
+
+.backcontact{
+/*transform*/
+-webkit-transform:rotateY(180deg);
+   -moz-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+     -o-transform:rotateY(180deg);
+        transform:rotateY(180deg);
+    background-color:#2c3e50;
+        text-align:center; 
+    position:relative;
+}
+
+
+
+
+.backtext {
+    text-align:center;
+    padding:10px;
+    color:#fff;
+}
+
+.backlink {
+    color:#ecf0f1;
+    border-style:solid;
+ border-width:2px;
+    border-color:#fff;
+    padding:5px;
+
+}
+
+.back span {
+   position: absolute;
+   bottom: 0;
+  left:0;
+    right:0;
+    padding-bottom:20px;
+}
+
+.backlink:hover {
+    color:#7f8c8d;
+}
+@media only screen and (max-width: 768px) {
+    .navstyle {
+        top:auto;
+        right:auto;
+        background-color:#2c3e50;
+        color:#fff;
+        z-index:9999;
+    }
+    .navbar-collapse {
+        max-height: none;
+    }
+    body {
+        margin: 0;
+    }
+
+    .dropdown-menu a {
+        color:#fff;
+    }
+    
+
+	}
+
+.icon-bar {
+    color:#fff;
+}
+
+.pics {
+position:relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.contact {
+    background-color:#2c3e50;
+    color:#fff;
+}
+
+.formarea {
+    text-align:center;
+    bottom:50px;
+}
+
+
+
+.area {
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.area {
+    padding-bottom:20px;
+}
+
+.contacttext p {
+    text-decoration:none;
+    text-shadow:none;
+    line-height:25px;
+}
+.contacttext h1 {
+    text-decoration:none;
+    text-shadow:none;
+}
+
+.source {
+    font-size:12px;
+    color:#2c3e50;
+}
+
+.sources li {
+    color:#fff;
+}
+
+.travefy {
+    width:100%;
+    height:700px;
+}
+
+
+.carousel, .item, .active {
+height:700px;
+}
+.carousel-inner {
+height:700px;
+}
+
+
+.carousel .item {
+background-color: #777;
+}
+.carousel .carousel-inner .bg {
+background-repeat:no-repeat;
+background-size:cover;
+}
+.carousel .carousel-inner .bg1 {
+background-image:url(nycwallpaper.jpg);
+background-position: center top;
+}
+.carousel .carousel-inner .bg2 {
+background-image:url(home2.png);
+background-position: center center;
+}
+.carousel .carousel-inner .bg3 {
+background-image:url(home3.png);
+background-position: center bottom;
+}
+
+.carousel .carousel-inner .bg4 {
+background-image:url(home4.png);
+background-position: center center;
+}
+
+.carousel .carousel-inner .bg5 {
+background-image:url(home5.png);
+background-position: center center;
+}
+
+.logohome {
+    width:50px;
+    height:50px;
+}
+
+.logoleft {
+    padding-right:530px;
+}
+.logoleft2 {
+    padding-right:600px;
+    padding-top:0;
+}
+
+.navlink {
+    padding-top:15px;
+}

@@ -1,0 +1,527 @@
+.navlink {
+    padding-top:15px;
+}
+
+.logo {
+    width:50px;
+    height:50px;
+}
+
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navstyle {
+    position:relative;
+    top:55px;
+    font-size:10px;
+    
+}
+
+.navstyle a {
+  color: #ecf0f1;
+  font-size: 16px;
+  padding: 14px 30px;
+  text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+}
+
+
+.map {
+    width:100%;
+    margin-left:0;
+    top:0;
+    bottom:0;
+}
+
+.arrow {
+    width:60px;
+    height:60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-wrapper {
+    min-height:100px;
+}
+.navstyle a:hover {
+ color: #fff;  
+}
+
+.navstyle a:before {
+ content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+} 
+
+.navstyle a:hover:before {
+     visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.navstyle li {
+  display: inline;
+    position:relative;
+
+}
+
+@media (min-width: 768px) {
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
+    .navbar-fixed-top {
+        position:relative;
+  
+    }
+}
+.dropdown-menu {
+    top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navstyle {
+        top:auto;
+        right:auto;
+        background-color:#2c3e50;
+        color:#fff;
+        z-index:9999;
+    }
+    .navbar-collapse {
+        max-height: none;
+    }
+    body {
+        margin: 0;
+    }
+
+    .dropdown-menu a {
+        color:#fff;
+    }
+    
+
+	}
+
+.icon-bar {
+    color:#fff;
+}
+
+#expenses {
+    padding-bottom:30px;
+}
+
+.tokyointro {
+  background-image: url('tokyointro.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+position:relative;
+}
+.dubaiintro {
+  background-image: url('dubaiwallpaper.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+position:relative;
+}
+.londonintro {
+  background-image: url('londonpage2.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+position:relative;
+}
+
+.riointro {
+  background-image: url('riopage2.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+position:relative;
+}
+
+.nycintro {
+  background-image: url('nycpage.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+position:relative;
+}
+
+.parisintro {
+  background-image: url('parispagetest.png');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+position:relative;
+}
+
+.hongkongintro {
+  background-image: url('hongkongpage.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+position:relative;
+}
+
+.bangkokintro {
+  background-image: url('bangkokpage.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+position:relative;
+}
+#navbarCollapse.affix {
+   
+    width: 100%;
+    top:0;
+    left:0;
+    background-color:#2c3e50;
+    z-index:9999;
+     -webkit-transition:width 2s, height 2s, background-color 0.5s, -webkit-transform 2s;
+    transition:width 2s, height 2s, background-color 0.5s, transform 2s;
+}
+
+
+
+@media (min-width: 768px) {
+    #navbarCollapse.affix {
+        position: fixed;
+    }
+}
+.tokyotitlearea .container {
+  position: relative;
+  
+}
+
+.iweather iframe {
+    margin-left:-20px;
+}
+
+.tokyointro h1 {
+  color: #fff;
+    font-weight: bold;
+    position: relative;     
+}
+
+
+.tokyointro p {
+  color: #ecf0f1;
+  position: relative; 
+    
+}
+
+.tokyointro h1 {
+  color: #fff;
+    font-weight: bold;
+    position: relative;     
+}
+
+
+.riointro p {
+  color: #ecf0f1;
+  position: relative; 
+    
+}
+
+.riointro h1 {
+  color: #fff;
+    font-weight: bold;
+    position: relative;     
+}
+
+.bangkokintro h1 {
+  color: #fff;
+    font-weight: bold;
+    position: relative;     
+}
+
+.bangkokintro p {
+  color: #ecf0f1;
+  position: relative; 
+    
+}
+
+.parisintro h1 {
+  color: #fff;
+    font-weight: bold;
+    position: relative;     
+}
+
+
+.parisintro p {
+  color: #ecf0f1;
+  position: relative; 
+    
+}
+.hongkongintro h1 {
+  color: #fff;
+    font-weight: bold;
+    position: relative;     
+}
+
+
+.hongkongintro p {
+  color: #ecf0f1;
+  position: relative; 
+    
+}
+
+.londonintro h1 {
+  color: #fff;
+    font-weight: bold;
+    position: relative;     
+}
+
+.timeintro {
+    color:#ecf0f1;
+}
+
+.londonintro p {
+  color: #ecf0f1;
+  position: relative; 
+    
+}
+
+.nycintro h1 {
+  color: #fff;
+    font-weight: bold;
+    position: relative;     
+}
+
+
+.nycintro p {
+  color: #ecf0f1;
+  position: relative; 
+    
+}
+.video {
+    text-align:center;
+    top:0;
+}
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 25px;
+  width:auto;
+  max-width: 400px;
+  margin: 0 auto; 
+}
+.ribbbon {
+    width:60%;
+padding-top:20px;
+    padding-bottom:20px;
+}
+.attractions h1 {
+    text-shadow:none;
+    color: #2c3e50;
+    font-size: 48px;
+}
+
+.attractions p {
+    text-shadow:none;
+    font-size:18px;
+}
+
+.contenttab a {
+    color: #2c3e50;
+}
+
+.contenttab a:hover {
+    color:#2980b9;
+}
+
+.jumbotron-white {
+    background-color:#fff;
+}
+
+#nav-wrapper {
+    min-height:50px;
+}
+   
+.white li a:hover {
+    background-color:#fff;
+}
+    
+
+.weather {
+    margin-top:47px;
+}
+@media (max-width: 768px) {
+    .weather {
+        margin-top:0px;
+    }
+}
+#wxWrap {
+    width: 350px;
+     /* Old browsers */
+   
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
+    background: linear-gradient(top, rgba(240,240,240,1) 0%,rgba(224,224,224,1) 100%); /* W3C */
+    padding: 2px 13px 2px 11px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display:inline-block;
+
+}
+#wxIntro {
+    display: inline-block;
+    font: 14px/20px Arial,Verdana,sans-serif;
+    color: #666;
+    vertical-align: top;
+    padding-top: 9px;
+}
+#wxIcon {
+    display: inline-block;
+    width: 100px;
+    height: 75px;
+    margin: 2px 0 -1px 1px;
+    overflow: hidden;
+    background: url('http://l.yimg.com/a/lib/ywc/img/wicons.png') no-repeat 100px 0;
+}
+#wxIcon2 {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    margin: 1px 6px 0 8px;
+    overflow: hidden;
+}
+#wxTemp {
+    display: inline-block;
+    font: 20px/28px Arial,Verdana,sans-serif;
+    vertical-align: top;
+    padding-top: 5px;
+    margin-left: 0;
+}
+.tokyotemp {
+    color:#fff;
+}
+
+.group {
+    width:0px;
+    height:0px;
+}
+.social {
+text-align:center;
+    padding:10px;
+}
+
+.social img {
+    padding:20px;
+}
+.jumbotron-footer {
+    background-color:#2c3e50;
+
+    color: #fff;
+}
+
+.jumbotron-footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-shadow:none;
+    position:relative;
+    margin-left:20px;
+}
+.jumbotron-footer a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-shadow:none;
+    position:relative;
+    color:#fff;
+    font-weight:100;
+    text-decoration:underline;
+}
+
+.jumbotron-footer a:hover {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-shadow:none;
+    position:relative;
+    color:#16a085;
+    font-weight:100;
+    text-decoration:underline;
+}
+.collapse {
+    margin-left:auto;
+    margin-right:auto;
+    top:20px;
+}
+.drop {
+    text-align:center;
+}
+
+.nontextcentered {
+    text-align:left;
+}
+
+.titletext {
+    padding-top:45px;
+}
+
+.videotext {
+    padding-top:25px;
+}
+
+.iconmelon,
+.im {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  display: block;
+  fill: #fff;
+}
+.iconmelon:after,
+.im:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+}
+
+.weatherintro {
+    padding-top:0;
+}
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

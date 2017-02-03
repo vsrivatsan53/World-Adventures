@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8">
+    <title>World Adventures</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="tokyostyle.css">
+      <link rel="stylesheet" href="flatui/dist/css/flat-ui.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script type="text/javascript" src="calcscript/formcalculationslondon.js"></script>
+<script type="text/javascript" src="js/fresco/fresco.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/fresco/fresco.css"/>
+    
+  </head>
+
+  <body>
+  
+<div class="londonintro nav_intro">
+    <div role="navigation" class="navbar navbar-fixed-top" >
+        <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header navstyle">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+    </div>
+    <!-- Collection of nav links and other content for toggling -->
+            <div class="nav-wrapper">
+    <div id="navbarCollapse" class="collapse navbar-collapse navstyle" data-spy="affix" data-offset-top="20">
+        <ul class="nav navbar-nav">
+            <li><a href="index.html"><img src="logo.png" class="logo"></a></li>
+            <li class="navlink"><a href="#attractions" class="smooth">Attractions</a></li>
+            <li class="navlink"><a href="#hotels" class="smooth">Hotels</a></li>
+            <li class="navlink"><a href="#restaurants" class="smooth">Restaurants</a></li>
+            <li class="navlink"><a href="#packages" class="smooth">Packages</a></li>
+           
+            
+         
+             <li class="navlink"><a href="contact.html">Contact</a></li>
+            <li class="navlink"><a href="itinerary.html">Itinerary</a></li>
+            <li class="dropdown navlink">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Destinations<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          
+                            <li><a href="dubai.html">Dubai</a></li>
+                            <li><a href="tokyo.html">Tokyo</a></li>
+                            <li><a href="london.html">London</a></li>
+                            <li><a href="nyc.html">New York City</a></li>
+                            <li><a href="paris.html">Paris</a></li>
+                            <li><a href="hongkong.html">Hong Kong</a></li>
+                            <li><a href="bangkok.html">Bangkok</a></li>
+                            <li><a href="rio.html">Rio De Janeiro</a></li>
+                        </ul>
+                    </li>
+            
+        </ul>
+        </div>
+    </div>
+            </div>
+</div>
+    <div class="tokyotitlearea">
+      <div class="container">
+
+        <h1>London</h1>
+                 <p>Scroll down to learn everything about London</p>
+  
+    
+        <p><a href="http://time.is/London" id="time_is_link" rel="nofollow"></a>
+            <span class="timeintro">Time in London:</span>
+<span id="London_z716"></span>
+<script src="http://widget.time.is/t.js"></script>
+<script>
+time_is_widget.init({London_z716:{time_format:"12hours:minutesAMPM"}});
+</script></p>
+         </div>
+           
+            <div class="iweather" >
+            <iframe src="http://www.weatherfor.us/load.php?location=london" scrolling="no" frameborder="0" allowtransparency="true" style="background: transparent; width: 720px; height: 250px; overflow: hidden;" ></iframe>
+
+            </div>
+         </div>
+        
+        <a href="#video" class="smooth"><img src="downarrow.png" class="arrow"></a>
+
+</div>
+        
+    
+      <div class="jumbotron jumbotron-white" id="video">
+          <div class="container attractions video">
+              <h3 class="videotext">Welcome to London</h3>
+              <div class="row">
+                  <div class="col-md-6">
+                      <p><b>Here's an overview of London</b></p>
+                      <div class="video-container">
+              <iframe width="560" height="315" src="http://www.youtube.com/embed/45ETZ1xvHS0" frameborder="0" allowfullscreen></iframe></div>
+                      </div>
+                  <div class="col-md-6">
+                      <p><b>Here's a map of London including various hotels and restaurants</b></p>
+                  <iframe
+class="map"
+    width="560"
+  height="315"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBVGC6tXormt3XyRZBS2QSJk58zVr1IBrY&q=hotels+restaurants+attractions+in+London">
+</iframe>
+                  </div>
+              </div>
+              </div>
+           </div>
+      <div class="jumbotron" id="attractions">
+          <div class="container attractions">
+      <h1 class="titletext">Attractions</h1>
+              <div class="container">
+              <ul class="nav nav-tabs nav-justified contenttab white">
+  <li class="active"><a href="#tower" data-toggle="tab">Tower of London</a></li>
+  <li><a href="#buck" data-toggle="tab">Buckingham Palace</a></li>
+  <li><a href="#gallery" data-toggle="tab">National Gallery</a></li>
+</ul>
+              <div id="content" class="tab-content">
+                  <div class="tab-pane fade active in" id="tower">
+                      <h3>Tower of London</h3>
+                      <div class="row">
+                          <div class="col-md-7">
+             <p>One of London's most famous landmarks, the historic Tower houses the Crown Jewels, the prison cell of Sir Walter Raleigh, known as the Bloody Tower, and the Chapel of St. John and the Royal Armories.
+</p>
+                              <p>Hours: Sun - Mon 10:00 am - 4:30 pm Tue - Sat 9:00 am - 4:30 pm</p>
+                              <p>Cost: Adult: &pound;19.00 (28.73 US Dollars) </p>
+                              <p>Child: &pound;9.50 (14.37 US Dollars)</p>
+                              <p>Address: London EC3N 4AB, United Kingdom</p>
+         </div>
+            <div class="attraction col-md-5">
+                          <img src="tower.jpg" class="thumbnail" style="width: 100%;">
+                          </div>
+      </div>               
+                      
+                      </div>
+                  <div class="tab-pane fade" id="buck">
+                 <h3>Buckingham Palace</h3>
+              <div class="row">
+                      <div class="col-md-7">
+                  <p>Buckingham Palace serves as both the office and London residence of Her Majesty The Queen. It is one of the few working royal palaces remaining in the world today. During a visit to Buckingham Palace, visitors can see the nineteen magnificent State Rooms, which provide the setting for ceremonial occasions and official entertaining. All rooms are furnished with many of the greatest treasures from the Royal Collection. A visit also includes entry to the special exhibition, Royal Childhood.</p>
+                          <p>Hours: 9:30AM - 7:30 PM</p>
+                          <p><u>Prices Starting From:</u></p>
+                          <p>Adult:  &pound;20.50 (31 US Dollars)</p>
+                          <p>Over 60/Student (with valid ID):  &pound;18.80 (28.43 US Dollars)</p>
+                          <p>Under 17/Disabled: &pound;11.80 (17.85 US Dollars)</p>
+                          <p>Under 5: Free</p>
+                          <p>Family:  &pound;52.80 (2 adults and 3 under 17s) (79.85 US Dollars)</p>
+                          <p>Address: London SW1A 1AA, United Kingdom</p>
+                  </div>
+                  <div class="col-md-5">
+                  <img src="buckpalace.jpg" class="thumbnail" style="width: 100%;">
+                  </div>
+                      </div>
+                      
+                  </div>
+                  <div class="tab-pane fade" id="gallery">
+                  <h3>The National Gallery</h3>
+              <div class="row">
+                      <div class="col-md-7">
+                  <p>The National Gallery houses the national collection of paintings in the Western European tradition from the 13th to the 19th centuries. It is one of the largest art museums and is world renowned for its rare pieces and wide variety. It is on show 361 days a year, free of charge.</p>
+                          <p>Hours: 10:00 am to 6:00 pm</p>
+                          <p>Cost: Free!</p>
+                          <p>Address: Trafalgar Square, London WC2N 5DN, United Kingdom</p>
+                  </div>
+                  <div class="col-md-5">
+                  <img src="nationalgallery.jpg" class="thumbnail" style="width: 100%;">
+                  </div>
+                      </div>
+                  </div>
+                   
+              </div>
+              </div>
+              </div>
+          </div>
+     <div class="jumbotron jumbotron-white" id="hotels">
+          <div class="container attractions">
+      <h1 class="titletext">Hotels</h1>
+              <div class="container">
+              <ul class="nav nav-tabs nav-justified contenttab">
+  <li class="active"><a href="#house" data-toggle="tab">London House Hotel</a></li>
+  <li><a href="#41" data-toggle="tab">Hotel 41</a></li>
+  <li><a href="#ermin" data-toggle="tab">St. Ermin's Hotel</a></li>
+</ul>
+              <div id="content" class="tab-content">
+                  <div class="tab-pane fade active in" id="house">
+                <h3>London Hotel House</h3>
+                      <p>Charming , newly renovated Hotel in Central London situated in a quiet and charming street The London House Hotel overlooks a leafy Victorian park in the exclusive Bayswater area and offers the excellent combination of both comfort and affordability in a prime location in central London. All room are newly renovated with contemporary d&eacute;cor. All rooms have air condition, TV, safe, mini fridge.</p> 
+                      <p>Address: 81 Kensington Gardens Square, London W2 4DJ, England</p>
+                      <p>Cost: starting from $83/night</p>
+                      <div class="row">
+                      <div class="col-md-7">
+                          <p>Amenities:</p>
+                          <ul>
+                          <li>Non-Smoking Rooms</li>
+                              <li>Family Rooms</li>
+                              <li>Air Conditioning</li>
+                              <li>Refrigerator in room</li>
+                              <li>Free Internet</li>
+                              <li>Public Wifi</li>
+                              <li>Free Wifi</li>
+                              <li>Concierge</li>
+                          </ul>
+                          </div>
+                          <div class="col-md-5">
+                          <a href="londonhouse/house1.jpg" class="fresco" data-fresco-group="unique_name"><img src="londonhouse/house1.jpg" class="thumbnail" style="width: 100%;"></a>
+                     <a href="londonhouse/house2.jpg" class="fresco" data-fresco-group="unique_name"><img src="londonhouse/house2.jpg" class="group"></a>
+                     <a href="londonhouse/house3.jpg" class="fresco" data-fresco-group="unique_name"><img src="londonhouse/house3.jpg" class="group"></a>
+                     <a href="londonhouse/house4.jpg" class="fresco" data-fresco-group="unique_name"><img src="londonhouse/house4.jpg" class="group"></a>
+                              <a href="londonhouse/house5.jpg" class="fresco" data-fresco-group="unique_name"><img src="londonhouse/house5.jpg" class="group"></a>
+                     Click on the picture to view more
+                        </div>
+                      </div>
+                      </div>
+                  <div class="tab-pane fade" id="41">
+                 <h3>Hotel 41</h3>
+                      <p>Winner of the Trip Advisor's Travellers Choice Award 2014. Luxury hotel with club like atmosphere and 21st century business technology; near Buckingham Palace and Westend theatre. Hotel 41 is also very welcoming of children and pets and offer a variety of services for them.</p> 
+                      <p>Address: 41 Buckingham Palace Road, London SW1W 0PS, England</p>
+                      <p>Cost: Starting from 434$/night</p>
+                      <div class="row">
+                      <div class="col-md-7">
+                          <p>Amenities:</p>
+                          <ul>
+                          <li>Pets Allowed ( Dog / Pet Friendly )</li>
+                                <li>Bar/Lounge</li>
+                                <li>Suites </li>
+                                <li>Free Internet</li>
+                                <li>Services</li>
+                                <li>Room Service </li>
+                                <li>Business Center with Internet Access</li>
+                              <li>Dry Cleaning</li>
+                          </ul>
+                          </div>
+                          <div class="col-md-5">
+                          <a href="hotel41/hotel411.jpg" class="fresco" data-fresco-group="unique_name2"><img src="hotel41/hotel411.jpg" class="thumbnail" style="width: 100%;"></a>
+                     <a href="hotel41/hotel412.jpg" class="fresco" data-fresco-group="unique_name2"><img src="hotel41/hotel412.jpg" class="group"></a>
+                     <a href="hotel41/hotel413.jpg" class="fresco" data-fresco-group="unique_name2"><img src="hotel41/hotel413.jpg" class="group"></a>
+                     <a href="hotel41/hotel414.jpg" class="fresco" data-fresco-group="unique_name2"><img src="hotel41/hotel414.jpg" class="group"></a>
+                              <a href="hotel41/hotel415.jpg" class="fresco" data-fresco-group="unique_name2"><img src="hotel41/hotel415.jpg" class="group"></a>
+                     Click on the picture to view more
+                        </div>
+                      </div>
+                      </div>
+                  <div class="tab-pane fade" id="ermin">
+                  <h3>St. Ermin's Hotel</h3>
+                      <p>St. Ermin's Hotel re-opened its doors in April 2011, following a dramatic £30 million refurbishment. Nestled in the heart of London, this four star deluxe hotel is at the center of the city's vibrant business, leisure and government landmarks. St James’s Park, Parliament Square, the London Eye, Westminster Abbey, Houses of Parliament, and Queen Elizabeth II Conference Centre are all just minutes away.</p> 
+                      <p>Address: 2 Caxton Street | Westminster, London SW1H 0QW, England</p>
+                      <p>Cost: Starting from 262$/night</p>
+                      <div class="row">
+                      <div class="col-md-4">
+                          <p>Amenities:</p>
+                          <ul>
+                          <li>Pets Allowed ( Dog / Pet Friendly )</li>
+                          <li>Wheelchair access</li>
+                              <li>Restaurant</li>
+                              <li>Bar/Lounge</li>
+                              <li>Fitness Center with Gym / Workout Room</li>
+                              <li>Suites</li>
+                              <li>Non-Smoking Rooms</li>
+                              <li>Family Rooms</li>
+                              <li>Room Service</li>
+                              <li>Business Center with Internet Access</li>
+                          </ul>
+                          </div>
+                          <div class="col-md-3">
+                          <p>Amenities (cont.):</p>
+                              <ul>
+                              <li>Children Activities ( Kid / Family Friendly )</li>
+                                  <li>Meeting Rooms</li>
+                                  <li>Dry Cleaning</li>
+                                  <li>Laundry Service</li>
+                                  <li>Concierge</li>
+                                  <li>Banquet Room</li>
+                                  <li>Multilingual Staff</li>
+                                  <li>Self-Serve Laundry</li>
+                                  <li>Conference Facilities</li>
+                              </ul>
+                          </div>
+                          <div class="col-md-5">
+                          <a href="ermin/ermin1.jpg" class="fresco" data-fresco-group="unique_name3"><img src="ermin/ermin1.jpg" class="thumbnail" style="width: 100%;"></a>
+                     <a href="ermin/ermin2.jpg" class="fresco" data-fresco-group="unique_name3"><img src="ermin/ermin2.jpg" class="group"></a>
+                     <a href="ermin/ermin3.jpg" class="fresco" data-fresco-group="unique_name3"><img src="ermin/ermin3.jpg" class="group"></a>
+                     <a href="ermin/ermin4.jpg" class="fresco" data-fresco-group="unique_name3"><img src="ermin/ermin4.jpg" class="group"></a>
+                              <a href="ermin/ermin5.jpg" class="fresco" data-fresco-group="unique_name3"><img src="ermin/ermin5.jpg" class="group"></a>
+                     Click on the picture to view more
+                        </div>
+                      </div>
+                      </div>
+                   
+              </div>
+              </div>
+              </div>
+          </div>
+      <div class="jumbotron" id="restaurants">
+          <div class="container attractions">
+      <h1 class="titletext">Restaurants</h1>
+              <div class="container">
+              <ul class="nav nav-tabs nav-justified contenttab white">
+  <li class="active"><a href="#caboose" data-toggle="tab">Caboose</a></li>
+  <li><a href="#andover" data-toggle="tab">The Andover Arms</a></li>
+  <li><a href="#pizza" data-toggle="tab">The Art of Pizza</a></li>
+</ul>
+              <div id="content" class="tab-content">
+                  <div class="tab-pane fade active in" id="caboose">
+                      <h3>Caboose</h3>
+             <div class="row">
+                      <div class="col-md-7">
+                          <p>Caboose is a caf&eacute;, a restaurant, a street kitchen, a supper club and occasional disco. This restaurant is perfect for casual dining as well as special occasions. The Caboose menu is a nod to the classic American barbecue, with mouth-watering burgers and slaws teaming up with rich sauces, cheeses and mash. </p>
+                          <p>Address: The Old Truman Brewery | Ely's Yard, London E1 6QR, England</p>
+                          <p>Cost: $15 to $46</p>
+                          <p><u>Hours:</u></p>
+                          <p>Tue to Fri 12:00 pm - 7:00 pm</p>
+                          <p>Sat to Mon 12:00 pm - 11:00 pm</p>
+                          <p>Cuisines: Barbecue, Hamburgers, British, Caf&eacute;</p>
+                 </div>
+                 <div class="col-md-5">
+                     <img src="caboose.jpg" class="thumbnail" style="width: 100%;">
+                 </div>
+                      </div>
+                       
+                      </div>
+                  <div class="tab-pane fade" id="andover">
+                  <h3>The Andover Arms</h3>
+             <div class="row">
+                      <div class="col-md-7">
+                          <p>If you are looking for quality of service and fancy the best pint in the world then a Fuller's Beer at The Andover Arms pub is for you. Most Fuller's beers are always on tap or are only a keg away, London Pride, ESB, Discovery, Chiswick, HSB, Seafarers, Honey Dew, 1845, London Porter, Golden Pride, Vintage Ale, Brewer's Reserve The Andover Arms pub is your cosy friendly English pub tucked away in the residential area of Brackenbury Village, Hammersmith, West London.</p>
+                          <p>Address: 57 Aldensley Road, London W6 0DL, England </p>
+                          <p>Cost : $12 to $30</p>
+                          <p><u>Hours:</u></p>
+                          <p>Sun 12:00 pm - 9:00 pm</p>
+                          <p>Mon - Sat 12:00 pm - 3:00 pm; 6:00 pm - 10:00 pm</p>
+                          <p>Cuisines: British, Pub</p>
+                 </div>
+                 <div class="col-md-5">
+                     <img src="andover.jpg" class="thumbnail" style="width: 100%;">
+                 </div>
+                      </div>
+                       
+                      </div>
+                  <div class="tab-pane fade" id="pizza">
+                   <h3>The Art of Pizza</h3>
+             <div class="row">
+                      <div class="col-md-7">
+                          <p>The restaurant/pizzeria, is small, with only twelve seats but it is very hospitable. The Menu is Traditional and Authentic Italian Cuisine. All products: pasta to fresh handmade, bread, pastries, cakes etc. Always made fresh. The dough for Pizza is made respecting the discipline of "True Neapolitan Pizza". Every day fresh dough is prepared and the menu is changed day by day. Every friday fish dishes are available as well.</p>
+                          <p>Address: 73 Cricklewood Lane, London NW2 1HR, England</p>
+                          <p>Cost: $8 - $46</p>
+                          <p><u>Hours:</u></p>
+                          <p>Tue to Sun 5:00 pm to 11:00 pm</p>
+                          <p>Cuisines: Italian, Pizza</p>
+                 </div>
+                 <div class="col-md-5">
+                     <img src="pizza.jpg" class="thumbnail" style="width: 100%;">
+                 </div>
+                      </div>
+                       
+                      </div>
+                  
+              </div>
+              </div>
+              </div>
+          </div>
+     
+      <div class="jumbotron " id="packages">
+      <div class="container attractions">
+          <h1 class="titletext">Packages</h1>
+          <div class="row">
+          <div class="col-md-4 drop">
+              
+             <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> <img class="ribbbon" src="bronzeribbon.png">
+              
+  
+</a><br><p>Bronze Package (Starting from $975)</p>
+              <div class="collapse" id="collapseExample">
+  <div class="well">
+    <p>Enjoy seven nights in our bronze package for London</p>
+      <div class="nontextcentered"><p>What's Included:</p>
+      <ul>
+      <li>London House Hotel weeklong stay starting from $812 </li>
+          <li>Economy Car rental starting from $136</li>
+          <li>Up to 4 admissions to Buckingham Palace : $31</li>
+          <li>Up to 4 admissions to Tower of London:  $29</li>
+      </ul>
+          </div>
+  </div>
+</div>
+              
+              </div>
+              <div class="col-md-4 drop">
+              <a data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample"> <img class="ribbbon" src="silverribbon.png">
+              
+  
+</a><br><p>Silver Package (Starting from $1753)</p>
+              <div class="collapse" id="collapseExample2">
+  <div class="well">
+     <p>Experience the grandness of London for seven nights in our silver package</p>
+      <div class="nontextcentered"><p>What's Included:</p>
+      <ul>
+      <li>Seven nights stay at the St. Ermin’s Hotel starting from $1477</li>
+          <li>Mid Value Car rental starting from $216</li>
+          <li>Up to 4 admissions to Tower of London:  $29</li>
+          <li>Up to 4 admissions to Buckingham Palace : $31</li>
+      </ul>
+          </div>
+  </div>
+</div>
+              </div>
+              <div class="col-md-4 drop">
+              <a data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample"> <img class="ribbbon" src="goldribbon.png">
+              
+  
+</a><br><p>Gold Package (Starting from $3247)</p>
+              <div class="collapse" id="collapseExample3">
+  <div class="well">
+    <p>The most luxurious way to visit London for seven nights is all included in our gold package</p>
+      <div class="nontextcentered"><p>What's Included:</p>
+      <ul>
+      <li>Seven nights at the Hotel 41 starting from $2919</li>
+          <li>Luxury/ Sport Car rental starting from $268</li>
+          <li>Up to 4 admissions to Tower of London: $29</li>
+          <li>Up to 4 admissions to Buckingham Palace: $31</li>
+      </ul>
+          </div>
+  </div>
+</div> 
+              </div>
+              
+                  
+          </div>
+          
+          </div>
+      </div>
+       <div class="jumbotron-white" id="expenses">
+          <div class="container attractions">
+              <h3>Estimate the Price of Your Stay</h3>
+              <div class="row">
+                  <div class="col-md-4">
+              <div id="wrap">
+        <form action="" id="cakeform" onsubmit="return false;">
+        <div>
+            <div class="cont_order">
+               <fieldset>
+              
+    
+                <select class="form-control" id="filling" name='filling' onchange="calculateTotal()">
+                <option value="None">Number of Nights Staying</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="3weeks">3 weeks</option>
+                    <option value="4weeks">4 weeks</option>
+               
+               </select>
+                <br/>
+               <select class="form-control" id="filling2" name='filling2' onchange="calculateTotal()">
+                <option value="None">Choose a Hotel</option>
+                <option value="hotel1">London Hotel House (Starting from $83)</option>
+                <option value="hotel2">Hotel 41 (Starting from $434)</option>
+                <option value="hotel3">St. Ermin's Hotel (Starting from $262)</option>
+               
+               </select><br />
+                <div id="totalPrice"></div>
+                
+                </fieldset>
+            </div>
+            
+        	
+            
+        </div>  
+       </form>
+	</div><!--End of wrap-->
+                      
+                      </div>
+                  <div class="col-md-4">
+                  <iframe id="QuickTripWidget" allowTransparency="true" src="http://www.quicktrip.com/quicktrip-widget.html?Affiliate=48bdd172-f175-4aca-ab9f-079cbbd8f61a&Mode=flight&Culture=en-CA" width="300" height="250" scrolling="no" frameBorder="0"></iframe>
+                  </div>
+                  <div class="col-md-3">
+                  <!-- EXCHANGERATES.ORG.UK US Dollar CURRENCY CONVERTER START -->
+<div style="width:178px;;margin:0;padding:0;border:1px solid #2D6AB4;background:#f0f0f0;">
+<div style="width:178px;text-align:center;padding:2px 0px;background:#2D6AB4;font-family:arial;font-size:11px;color:#ffffff;font-weight:bold;vertical-align:middle;">
+<img src="http://www.exchangerates.org.uk/images/flags/us.gif" style="padding-right:5px;">
+<a style="color:#ffffff;text-decoration:none;text-transform:uppercase;" href="http://www.exchangerates.org.uk/US-Dollar-USD-currency-table.html" target="_new" title="US Dollar Converter">US Dollar Converter</a></div><div style="padding:10px;">
+<script type="text/javascript">	
+var dcf = 'USD';
+var dct = 'EUR';
+var mc = '2D6AB4';
+var mbg = 'f0f0f0';
+var tc = 'ffffff';
+var f = 'arial';
+var fc = '000000';
+var tz = '0';
+
+</script><script type="text/javascript" src="http://www.currency.me.uk/remote/ER-CCCS2-1.php"></script></div></div>
+<!-- EXCHANGERATES.ORG.UK US Dollar CURRENCY CONVERTER END -->
+                  </div>
+              </div>
+          </div>
+           </div>
+     
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+      
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc2/js/bootstrap.min.js"></script>
+      <script type="text/javascript">
+// javascript will go here
+$(function(){
+
+    // Specify the ZIP/location code and units (f or c)
+    var loc = 'UKXX0085'; // or e.g. SPXX0050
+    var u = 'f';
+
+    var query = "SELECT item.condition FROM weather.forecast WHERE location='" + loc + "' AND u='" + u + "'";
+    var cacheBuster = Math.floor((new Date().getTime()) / 1200 / 1000);
+    var url = 'http://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent(query) + '&format=json&_nocache=' + cacheBuster;
+
+    window['wxCallback'] = function(data) {
+        var info = data.query.results.channel.item.condition;
+        $('#wxIcon').css({
+            backgroundPosition: '-' + (61 * info.code) + 'px 0'
+        }).attr({
+            title: info.text
+        });
+        $('#wxIcon2').append('<img src="http://l.yimg.com/a/i/us/we/52/' + info.code + '.gif" width="34" height="34" title="' + info.text + '" />');
+        $('#wxTemp').html(info.temp + '&deg;' + (u.toUpperCase()));
+    };
+
+    $.ajax({
+        url: url,
+        dataType: 'jsonp',
+        cache: true,
+        jsonpCallback: 'wxCallback'
+    });
+    
+});
+</script>
+      <script>
+      $(function() {
+  $('a[href*=#][class*="smooth"]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +'] - 150px');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+      </script>
+     
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+      </body>
+    <footer>
+    <div class="jumbotron jumbotron-footer">
+        <div class="social">
+            <h4>Connect to us with Social Media</h4>
+       <a target="_blank" href="https://www.facebook.com/wadvs"><img src="facebook42.png"></a>
+            <a target="_blank" href="https://twitter.com/wadvs27"><img src="twitter42.png"></a>
+            <a target="_blank" href="https://plus.google.com/116451774734759841468/about"><img src="google-plus42.png"></a>
+           <a target="_blank" href="https://www.pinterest.com/adventures0530/"><img src="pinterest42.png"></a>
+            
+             <p>&copy; 2014 | World Adventures | Vignesh Srivatsan, Raajesh Arunachalam, Bhavish Bhattar, Santan Katragadda|  </p>
+            
+            </div>
+   
+    
+    </div>
+    
+    </footer>
+    </html>

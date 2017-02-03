@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8">
+    <title>World Adventures</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="tokyostyle.css">
+      <link rel="stylesheet" href="flatui/dist/css/flat-ui.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script type="text/javascript" src="calcscript/formcalculationsdubai.js"></script>
+<script type="text/javascript" src="js/fresco/fresco.js"></script>
+<link rel="stylesheet" type="text/css" href="css/fresco/fresco.css"/>
+    
+  </head>
+
+  <body>
+    
+<div class="dubaiintro nav_intro">
+    <div role="navigation" class="navbar navbar-fixed-top" >
+        <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header navstyle">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+    </div>
+    <!-- Collection of nav links and other content for toggling -->
+            <div class="nav-wrapper">
+    <div id="navbarCollapse" class="collapse navbar-collapse navstyle" data-spy="affix" data-offset-top="20">
+        <ul class="nav navbar-nav">
+             <li><a href="index.html"><img src="logo.png" class="logo"></a></li>
+            <li class="navlink"><a href="#attractions" class="smooth">Attractions</a></li>
+            <li class="navlink"><a href="#hotels" class="smooth">Hotels</a></li>
+            <li class="navlink"><a href="#restaurants" class="smooth">Restaurants</a></li>
+            <li class="navlink"><a href="#packages" class="smooth">Packages</a></li>
+           
+            
+         
+             <li class="navlink"><a href="contact.html">Contact</a></li>
+            <li class="navlink"><a href="itinerary.html">Itinerary</a></li>
+            <li class="dropdown navlink">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Destinations<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+               
+                            <li><a href="dubai.html">Dubai</a></li>
+                            <li><a href="tokyo.html">Tokyo</a></li>
+                            <li><a href="london.html">London</a></li>
+                            <li><a href="nyc.html">New York City</a></li>
+                            <li><a href="paris.html">Paris</a></li>
+                            <li><a href="hongkong.html">Hong Kong</a></li>
+                            <li><a href="bangkok.html">Bangkok</a></li>
+                            <li><a href="rio.html">Rio De Janeiro</a></li>
+                        </ul>
+                    </li>
+            
+        </ul>
+    </div>
+            </div>
+</div>
+        </div>
+    <div class="tokyotitlearea">
+      <div class="container weatherintro">
+          
+             
+        <h1>Dubai</h1>
+                 <p>Scroll down to learn everything about Dubai</p>
+      
+    
+         <p><a href="http://time.is/Dubai" id="time_is_link" rel="nofollow"></a>
+          <span>Time in Dubai:</span>
+<span id="Dubai_z414"></span>
+<script src="http://widget.time.is/t.js"></script>
+<script>
+time_is_widget.init({Dubai_z414:{time_format:"12hours:minutesAMPM"}});
+</script></p>
+         
+            
+            <div class="iweather">
+            <iframe src="http://www.weatherfor.us/load.php?location=dubai" scrolling="no" frameborder="0" allowtransparency="true" style="background: transparent; width: 500px; height: 250px; overflow: hidden;"></iframe>
+
+
+            </div>
+         </div>
+       
+<a href="#video" class="smooth"><img src="downarrow.png" class="arrow"></a>
+    </div>
+         
+</div>
+      
+    
+       <div class="jumbotron jumbotron-white" id="video">
+          <div class="container attractions video">
+              <h3 class="videotext">Welcome to Dubai</h3>
+              <div class="row">
+                  <div class="col-md-6">
+                      <p><b>Here's an overview of Dubai</b></p>
+                      <div class="video-container">
+              <iframe width="560" height="315" src="http://www.youtube.com/embed/nPOO1Coe2DI" frameborder="0" allowfullscreen></iframe></div>
+                      </div>
+                  <div class="col-md-6">
+                      <p><b>Here's a map of Dubai including various hotels and restaurants</b></p>
+                   <iframe
+class="map"
+  height="315"
+    width="560"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBVGC6tXormt3XyRZBS2QSJk58zVr1IBrY&q=hotels+restaurants+attractions+in+Dubai">
+</iframe>
+                  
+                  </div>
+              </div>
+           </div>
+           </div>
+      <div class="jumbotron" id="attractions">
+          <div class="container attractions">
+      <h1 class="titletext">Attractions</h1>
+              <div class="container">
+              <ul class="nav nav-tabs nav-justified contenttab white">
+  <li class="active"><a href="#burj" data-toggle="tab">Burj Khalifa</a></li>
+  <li><a href="#museum" data-toggle="tab">Dubai Museum</a></li>
+  <li><a href="#mosque" data-toggle="tab">Jumeirah Mosque</a></li>
+</ul>
+              <div id="content" class="tab-content">
+                  <div class="tab-pane fade active in" id="burj">
+                      <h3>Burj Khalifa</h3>
+                      <div class="row">
+                          <div class="col-md-7">
+             <p>The Burj Khalifa is a staggering 828 metres (2,716.5 feet) tall and contains over 160 stories. This tower is the tallest free standing building in the world and the biggest attraction in Dubai. The Burj Khalifa contains offices, retail space, residential units, and a Giorgio Armani hotel. A Y-shaped floor plan maximizes views of the Arabian Gulf. At ground level, the skyscraper is surrounded by green space, water features, and pedestrian-friendly boulevards.
+</p>
+                              <p>Tours: From 1:30 to past 6:00 </p>
+                              <p>Cost: Tours starting from 125 AED (34.03 US Dollars)</p>
+                              <p>Address: Sheikh Mohammed Bin Rashid Blvd, Downtown Dubai - Dubai - United Arab Emirates</p>
+         </div>
+            <div class="attraction col-md-5">
+                          <img src="burj.jpg" class="thumbnail" style="width: 65%;">
+                          </div>
+      </div>                 
+                      </div>
+                  <div class="tab-pane fade" id="museum">
+                 <h3>Dubai Museum</h3>
+                      <div class="row">
+                          <div class="col-md-7">
+                     <p>The Dubai Museum is the oldest standing building in Dubai and contains life-size dioramas to illustrate the lifestyle of people living in the times before the discovery of oil. The museum accurately represents many traditional arab housing and traditions. The museum also contains artifacts from African and Asian countries as well and welcomes over 1 million visitors each year. </p>
+                          <p>Private tours range from 175 AED and up (47.64 US Dollars)</p>
+                          <p>Hours: 8:30 am to 2:30 pm</p>
+                          <p>Address: Opp. Grand Mosque, Near Arabian Court Hotel - Al Fahidi St - Dubai - United Arab Emirates</p>
+                              </div>
+                          <div class="col-md-5">
+                          <img src="dubaimuseum.jpg" class="thumbnail" style="width: 65%;">
+                          </div>
+              </div>
+                  </div>
+                  <div class="tab-pane fade" id="mosque">
+                
+                      <h3>Jumeirah Mosque</h3>
+                      <div class="row">
+                      <div class="col-md-7">
+                          <p>Known as the most photographed mosque in Dubai, the Jumeirah Mosque is a popular tourist attraction. The mosque displays beautiful architecture and is dedicated to promoting a cultural understanding amongst non-muslims being that this mosque is the only mosque in the UAE that is open to non-muslims</p>
+                          <p>Costs: Tours Mon to Thurs. at 10:00 pm 180 AED and up (49 US Dollars)</p>
+                          <p>Hours: Open Sat. to Thurs. from 9:00am to 5:00 pm</p>
+                          <p>Address: Jumeirah Beach Road - Dubai - United Arab Emirates</p>
+                          </div>
+                          <div class="col-md-5">
+                          <img src="mosque.jpg" class="thumbnail" style="width: 100%;">
+                          </div>
+                      </div>
+                      
+                  </div>
+                   
+              </div>
+              </div>
+              </div>
+          </div>
+     <div class="jumbotron jumbotron-white" id="hotels">
+          <div class="container attractions">
+      <h1 class="titletext">Hotels</h1>
+              <div class="container">
+              <ul class="nav nav-tabs nav-justified contenttab">
+  <li class="active"><a href="#dar" data-toggle="tab">Dar Al Masyaf at Madinat Jumeirah</a></li>
+  <li><a href="#oberoi" data-toggle="tab">The Oberoi</a></li>
+  <li><a href="#premier" data-toggle="tab">Premier Inn</a></li>
+</ul>
+              <div id="content" class="tab-content">
+                  
+                  <div class="tab-pane fade active in" id="dar">
+                  <h3>Dar Al Masyaf at Madinat Jumeirah</h3> 
+             
+                     <p>The Dar Al Masyaf at Madinat Jumeirah is one of the most luxurious hotels in the world and known as a peaceful haven for a sweet getaway. The resort features captivating architecture and waterways that fill the building. The rooms are known to have spacious beds and luxurious designs.</p>
+                      <p>Address: Al Sufouh Road | Madinat Jumeirah Resort, Dubai 75157, United Arab Emirates</p>
+                      <p>Costs: Starting from $471/night</p>
+                <div class="row">
+                 <div class="col-md-4">
+                     <p>Amenities:</p>
+                     <ul>
+                     <li>Free Parking</li>
+                         <li>Room Service</li>
+                         <li>Shuttle Bus Service</li>
+                         <li>Children Activities ( Kid / Family Friendly )</li>
+                         <li>Meeting Rooms</li>
+                         <li>Business Center with Internet Access</li>
+                         <li>Concierge</li>
+                         <li>Banquet Room</li>
+                         <li>Laundry Service</li>
+                         <li>Conference Facilities</li>
+                     </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <p>Amenities (cont.):</p>
+                        <ul>
+                        <li>Multilingual Staff</li>
+                         <li>Free Internet</li>
+                            <li>Fitness Center with Gym / Workout Room</li>
+                            <li>Pool</li>
+                            <li>Restaurant</li>
+                            <li>Self-Serve Laundry</li>
+                            <li>Spa</li>
+                            <li>Dry Cleaning</li>
+                            <li>Babysitting</li>
+                            <li>Tennis Court</li>
+                        </ul>
+                    </div>
+                 <div class="col-md-5">
+                     <a href="darhotel1.jpg" class="fresco" data-fresco-group="dar"><img src="darhotel1.jpg" class="thumbnail" style="width: 100%;"></a>
+                     <a href="darhotel2.jpg" class="fresco" data-fresco-group="dar"><img src="darhotel2.jpg" class="group"></a>
+                     <a href="darhotel3.jpg" class="fresco" data-fresco-group="dar"><img src="darhotel3.jpg" class="group"></a>
+                     <a href="darhotel4.jpg" class="fresco" data-fresco-group="dar"><img src="darhotel4.jpg" class="group"></a>
+                     <a href="darhotel5.jpg" class="fresco" data-fresco-group="dar"><img src="darhotel5.jpg" class="group"></a>
+                     Click on the picture to view more
+                 </div>
+                      </div>
+                       
+                      </div>
+                  <div class="tab-pane fade" id="oberoi">
+                     <h3>The Oberoi</h3> 
+             
+                     <p>The Oberoi, Dubai is a contemporary luxury hotel that embodies height, light and space and overlooks the iconic Burj Khalifa. The hotel is located within minutes from Dubai Mall and Dubai International Financial Centre. The Oberoi contains 252 spacious, luxurious and elegantly appointed rooms and suites convey a warm and welcoming ambience.</p>
+                      <p>Address: The Oberoi, Dubai</p>
+                      <p>Cost: Starting from $490/night</p>
+                <div class="row">
+                 <div class="col-md-4">
+                     <p>Amenities:</p>
+                     <ul>
+                     <li>Free Parking</li>
+                         <li>Room Service</li>
+                         <li>Shuttle Bus Service</li>
+                         <li>Free Breakfast</li>
+                         <li>Meeting Rooms</li>
+                         <li>Business Center with Internet Access</li>
+                         <li>Concierge</li>
+                         <li>Banquet Room</li>
+                     </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <p>Amenities (cont.):</p>
+                        <ul>
+                        <li>Multilingual Staff</li>
+                         <li>Free Internet</li>
+                            <li>Fitness Center with Gym / Workout Room</li>
+                            <li>Pool</li>
+                            <li>Restaurant</li>
+                            <li>Bar/Lounge</li>
+                            <li>Spa</li>
+                        </ul>
+                    </div>
+                 <div class="col-md-5">
+                     <a href="oberoi1.jpg" class="fresco" data-fresco-group="dar1"><img src="oberoi1.jpg" class="thumbnail" style="width: 100%;"></a>
+                     <a href="oberoi2.jpg" class="fresco" data-fresco-group="dar1"><img src="oberoi2.jpg" class="group"></a>
+                     <a href="oberoi3.jpg" class="fresco" data-fresco-group="dar1"><img src="oberoi3.jpg" class="group"></a>
+                     <a href="oberoi4.jpg" class="fresco" data-fresco-group="dar1"><img src="oberoi4.jpg" class="group"></a>
+                     <a href="oberoi5.jpg" class="fresco" data-fresco-group="dar1"><img src="oberoi5.jpg" class="group"></a>
+                     Click on the picture to view more
+                 </div>
+                      </div>
+                       
+                      </div>
+                  <div class="tab-pane fade" id="premier">
+                  
+                      <h3>Premier Inn</h3> 
+             
+                     <p>On the doorstep of the airport and close to Dubai's business hotspots, Premier Inn Dubai International Airport hotel is ideal for both business and leisure travellers. A complimentary shuttle bus service runs to and from the hotel, Terminals 1 and 3 and the Dubai Metro every 30 minutes. The hotel features 281 single and double rooms.</p>
+                      <p>Address: 52B Street  PO Box 35118, Dubai, United Arab Emirates</p>
+                      <p>Cost: Starting from $340/night</p>
+                <div class="row">
+                 <div class="col-md-4">
+                     <p>Amenities:</p>
+                     <ul>
+                     <li>Hot Tub</li>
+                         <li>Room Service</li>
+                         <li>Shuttle Bus Service</li>
+                         <li>Free Parking</li>
+                         <li>Meeting Rooms</li>
+                         <li>Business Center with Internet Access</li>
+                         <li>Non-Smoking Rooms</li>
+                     </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <p>Amenities (cont.):</p>
+                        <ul>
+                        <li>Bar/Lounge</li>
+                         <li>Free Internet</li>
+                            <li>Fitness Center with Gym / Workout Room</li>
+                            <li>Pool</li>
+                            <li>Restaurant</li>
+                            <li>Airport Transportation</li>
+                            <li>Family Rooms</li>
+                        </ul>
+                    </div>
+                 <div class="col-md-5">
+                     
+                     <a href="premier/premier1.jpg" class="fresco" data-fresco-group="dar2"><img src="premier/premier1.jpg" class="thumbnail" style="width: 100%;"></a>
+                     <a href="premier/premier2.jpg" class="fresco" data-fresco-group="dar2"><img src="premier/premier2.jpg" class="group"></a>
+                     <a href="premier/premier3.jpg" class="fresco" data-fresco-group="dar2"><img src="premier/premier3.jpg" class="group"></a>
+                     <a href="premier/premier4.jpg" class="fresco" data-fresco-group="dar2"><img src="premier/premier4.jpg" class="group"></a>
+                     Click on the picture to view more
+                     
+
+                 </div>
+                      </div>
+                       
+                      </div>
+                   
+              </div>
+              </div>
+              </div>
+          </div>
+      <div class="jumbotron" id="restaurants">
+          <div class="container attractions">
+      <h1 class="titletext">Restaurants</h1>
+              <div class="container">
+              <ul class="nav nav-tabs nav-justified contenttab white">
+  <li class="active"><a href="#zengo" data-toggle="tab">Zengo</a></li>
+  <li><a href="#bluejade" data-toggle="tab">Blue Jade</a></li>
+  <li><a href="#creek" data-toggle="tab">Creekside Japanese Restaurant</a></li>
+</ul>
+              <div id="content" class="tab-content">
+                  <div class="tab-pane fade active in" id="zengo">
+                      <h3>Zengo</h3>
+                      <div class="row">
+                      <div class="col-md-7">
+                          <p>Asia recreated by celebrity chefs Richard Sandoval and Akmal Anuar. Zengo features an artful blend of Asian styles and flavours with influences of other ingredients from around the world to create an innovative and beautifully balanced menu designed to share.</p>
+                          <p>Address: Al Sufouh Rd,JBR Walk,Jumeirah Beach Residence - United Arab Emirates</p>
+                          <p>Hours: Mon - Wed 7:00 pm - 2:00 am</p>
+                          <p>Thu - Fri 7:00 pm - 3:00 am</p>
+                          <p>Sat 7:00 pm - 2:00 am</p>
+                          <p>Cuisines: Latin, Asian fusion</p>
+                          <p>Cost: $50-80</p>
+                          
+                          </div>
+                          <div class="col-md-5">
+                          <img src="zengo.jpg" class="thumbnail" style="width: 100%;">
+                          </div>
+                      </div>
+             
+                       
+                      </div>
+                  <div class="tab-pane fade" id="bluejade">
+                 <h3>Blue Jade</h3>
+                     <div class="row">
+                      <div class="col-md-7">
+                         <p>Experience a contemporary Asian restaurant in Dubai that celebrates regional cuisine by taking you on a culinary journey throughout the Far East. Along with a menu that combines authentic flavors with a contemporary style and presentation, guests can enjoy an ultimate Asian dining experience at the restaurant’s raw bar and sushi station, located in the center of the restaurant.</p>
+                          <p>Address:  The Ritz-Carlton, Dubai 26525, United Arab Emirates</p>
+                          <p>Cost: $50 - $100</p>
+                          <p>Hours: Sun - Sat 5:00 pm - 11:00 pm</p>
+                          <p>Cuisines: Asian, Pan-Asian</p>
+                         </div>
+                         <div class="col-md-5">
+                         <img src="bluejade.jpg" class="thumbnail" style="width: 100%;">
+                         </div>
+                      </div>
+              
+                  </div>
+                  <div class="tab-pane fade" id="creek">
+                  <h3>Creekside Japanese Restaurant</h3>
+                      <div class="row">
+                      <div class="col-md-7">
+                          <p>Creekside Japanese Restaurant in Dubai brings you a true taste of Japan and Asia with fantastic views of the Creek. Choose your own sushi from the counter or wander across to the Teppanyaki grill and watch as your food is cooked in front of your eyes. Your experience will be nothing short of spectacular.</p>
+                          <p>Address: Baniyas Street, P.O. Box 4250, Dubai, United Arab Emirates</p>
+                          <p>Cost: $15 - $45</p>
+                          <p>Hours: Sun - Sat 7:00 pm - 11:00 pm Fri 12:00 pm - 4:00 pm</p>
+                          <p>Cuisines: Japanese</p>
+                          </div>
+                          <div class="col-md-5">
+                           <img src="creek.jpg" class="thumbnail" style="width: 100%;">
+                          </div>
+                      </div>
+                  </div>
+                   
+              </div>
+              </div>
+              </div>
+          </div>
+       
+      <div class="jumbotron jumbotron-white" id="packages">
+      <div class="container attractions">
+          <h1 class="titletext">Packages</h1>
+          <div class="row">
+          <div class="col-md-4 drop">
+              
+             <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> <img class="ribbbon" src="bronzeribbon.png">
+              
+  
+</a><br><p>Bronze Package (Starting from $908)</p>
+              <div class="collapse" id="collapseExample">
+  <div class="well">
+    <p>Enjoy seven nights in our bronze package for Dubai</p>
+      <div class="nontextcentered"><p>What's Included:</p>
+      <ul>
+      <li>Seven nights stay at the Premier inn starting from $777</li>
+          <li>Economy Car Rental starting from $188</li>
+          <li>Private tour of Dubai Museum $48</li>
+          <li>Tour of Jumeirah Mosque $49</li>
+          <li>Up to 4 early or evening hours’ tickets $34</li>
+      </ul>
+          </div>
+  </div>
+</div>
+              
+              </div>
+              <div class="col-md-4 drop">
+              <a data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample"> <img class="ribbbon" src="silverribbon.png">
+              
+  
+</a><br><p>Silver Package (Starting from $2501)</p>
+              <div class="collapse" id="collapseExample2">
+  <div class="well">
+     <p>Experience the grandness of Dubai for seven nights in our silver package</p>
+      <div class="nontextcentered"><p>What's Included:</p>
+      <ul>
+      <li>Seven nights stay at the Oberoi starting from $2030 - Upgrades available</li>
+          <li>Mid Value Car Rental starting from $319</li>
+          <li>Private tour of Dubai Museum $48</li>
+          <li>Tour of Jumeirah Mosque $49</li>
+          <li>Up to 4 prime time Burj Kalifa tickets for $55 per ticket</li>
+      </ul>
+          </div>
+  </div>
+</div>
+              </div>
+              <div class="col-md-4 drop">
+              <a data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample"> <img class="ribbbon" src="goldribbon.png">
+              
+  
+</a><br><p>Gold Package (Starting from $3936)</p>
+              <div class="collapse" id="collapseExample3">
+  <div class="well">
+    <p>The most luxurious way to visit Dubai for seven nights is all included in our gold package</p>
+      <div class="nontextcentered"><p>What's Included:</p>
+      <ul>
+      <li>Seven nights at the Dar Al Masyaf at Madinat Jumeirah starting from $3297 - Upgrades available</li>
+          <li>Luxury/ Sport Car Rental $480</li>
+          <li>Private tour of Dubai Museum $48</li>
+          <li>Tour of Jumeirah Mosque $49</li>
+          <li>Up to 4 fast pass Burj Kalifa tickets for $82 per ticket</li>
+      </ul>
+          </div>
+  </div>
+</div> 
+              </div>
+              
+                  
+          </div>
+          
+          </div>
+      </div>
+      <div class="jumbotron" id="expenses">
+          <div class="container attractions">
+              <h3 class="titletext">Estimate the Price of Your Stay</h3>
+              <div class="row">
+                  <div class="col-md-4">
+              <div id="wrap">
+        <form action="" id="cakeform" onsubmit="return false;">
+        <div>
+            <div class="cont_order">
+               <fieldset>
+              
+    
+                <select class="form-control" id="filling" name='filling' onchange="calculateTotal()">
+                <option value="None">Number of Nights Staying</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="3weeks">3 weeks</option>
+                    <option value="4weeks">4 weeks</option>
+               
+               </select>
+                <br/>
+               <select class="form-control" id="filling2" name='filling2' onchange="calculateTotal()">
+                <option value="None">Choose a Hotel</option>
+                <option value="hotel1">Dar Al Masyaf at Madinat Jumeirah (Starting from $471)</option>
+                <option value="hotel2">The Oberoi (Starting from $490)</option>
+                <option value="hotel3">Premier Inn Dubai International Airport (Starting from $340)</option>
+               
+               </select><br />
+                <div id="totalPrice"></div>
+                
+                </fieldset>
+            </div>
+            
+        	
+            
+        </div>  
+       </form>
+	</div><!--End of wrap-->
+                      
+                      </div>
+                  <div class="col-md-4">
+                  <iframe id="QuickTripWidget" allowTransparency="true" src="http://www.quicktrip.com/quicktrip-widget.html?Affiliate=48bdd172-f175-4aca-ab9f-079cbbd8f61a&Mode=flight&Culture=en-CA" width="300" height="250" scrolling="no" frameBorder="0"></iframe>
+                  </div>
+                  <div class="col-md-3">
+                  <!-- EXCHANGERATES.ORG.UK US Dollar CURRENCY CONVERTER START -->
+<div style="width:178px;;margin:0;padding:0;border:1px solid #2D6AB4;background:#f0f0f0;">
+<div style="width:178px;text-align:center;padding:2px 0px;background:#2D6AB4;font-family:arial;font-size:11px;color:#ffffff;font-weight:bold;vertical-align:middle;">
+<img src="http://www.exchangerates.org.uk/images/flags/us.gif" style="padding-right:5px;">
+<a style="color:#ffffff;text-decoration:none;text-transform:uppercase;" href="http://www.exchangerates.org.uk/US-Dollar-USD-currency-table.html" target="_new" title="US Dollar Converter">US Dollar Converter</a></div><div style="padding:10px;">
+<script type="text/javascript">	
+var dcf = 'USD';
+var dct = 'EUR';
+var mc = '2D6AB4';
+var mbg = 'f0f0f0';
+var tc = 'ffffff';
+var f = 'arial';
+var fc = '000000';
+var tz = '0';
+
+</script><script type="text/javascript" src="http://www.currency.me.uk/remote/ER-CCCS2-1.php"></script></div></div>
+<!-- EXCHANGERATES.ORG.UK US Dollar CURRENCY CONVERTER END -->
+                  </div>
+              </div>
+          </div>
+          </div>
+     
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+      
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc2/js/bootstrap.min.js"></script>
+      <script type="text/javascript">
+// javascript will go here
+$(function(){
+
+    // Specify the ZIP/location code and units (f or c)
+    var loc = 'AEXX0004'; // or e.g. SPXX0050
+    var u = 'f';
+
+    var query = "SELECT item.condition FROM weather.forecast WHERE location='" + loc + "' AND u='" + u + "'";
+    var cacheBuster = Math.floor((new Date().getTime()) / 1200 / 1000);
+    var url = 'http://query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent(query) + '&format=json&_nocache=' + cacheBuster;
+
+    window['wxCallback'] = function(data) {
+        var info = data.query.results.channel.item.condition;
+        $('#wxIcon').css({
+            backgroundPosition: '-' + (61 * info.code) + 'px 0'
+        }).attr({
+            title: info.text
+        });
+        $('#wxIcon2').append('<img src="http://l.yimg.com/a/i/us/we/52/' + info.code + '.gif" width="34" height="34" title="' + info.text + '" />');
+        $('#wxTemp').html(info.temp + '&deg;' + (u.toUpperCase()));
+    };
+
+    $.ajax({
+        url: url,
+        dataType: 'jsonp',
+        cache: true,
+        jsonpCallback: 'wxCallback'
+    });
+    
+});
+</script>
+       <script>
+      $(function() {
+  $('a[href*=#][class*="smooth"]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+      </script>
+      </body>
+   <footer>
+    <div class="jumbotron jumbotron-footer">
+        <div class="social">
+            <h4>Connect to us with Social Media</h4>
+       <a target="_blank" href="https://www.facebook.com/wadvs"><img src="facebook42.png"></a>
+            <a target="_blank" href="https://twitter.com/wadvs27"><img src="twitter42.png"></a>
+            <a target="_blank" href="https://plus.google.com/116451774734759841468/about"><img src="google-plus42.png"></a>
+           <a target="_blank" href="https://www.pinterest.com/adventures0530/"><img src="pinterest42.png"></a>
+            
+             <p>&copy; 2014 | World Adventures | Vignesh Srivatsan, Raajesh Arunachalam, Bhavish Bhattar, Santan Katragadda|  </p>
+            
+            </div>
+   
+    
+    </div>
+    
+    </footer>
+    </html>
